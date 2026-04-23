@@ -1,0 +1,156 @@
+.collection-banners-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* Main Banner - 50% width */
+.collection-banner-main {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+}
+
+/* Side Banners Container - 50% width */
+.collection-banners-side {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width:50%;
+}
+
+/* Individual Side Banner */
+.collection-banner-side {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+}
+
+.banner-button {
+  /* width: fit-content; */
+  margin: 10px 0;
+}
+
+
+.collection-banner-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  z-index: 1;
+}
+
+
+.collection-banner-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.collection-banner-content {
+  position: relative;
+  height: 100%;
+  padding: 3.5rem;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.collection-banner-main .collection-banner-content {
+  width: 100%;
+}
+
+.collection-banner-title {
+  margin: 0;
+  font-size:3.6rem;
+}
+
+.collection-banner-subtitle {
+  margin-bottom: 10px;
+}
+
+/* Button Styling */
+.collection-banner-button {
+  display: inline-block;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  transition: opacity 0.3s;
+  width: fit-content;
+}
+
+.collection-banner-side .collection-banner-button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.collection-banner-button:hover {
+  opacity: 0.9;
+}
+
+/* Discount Badge */
+.collection-banner-discount {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.collection-banner-description {
+    max-width: 100%;
+}
+.collection-banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* default center */
+  text-align: left;        /* default left */
+}
+
+.vertical-align-top {
+  justify-content: flex-start;
+}
+
+.vertical-align-middle {
+  justify-content: center;
+}
+
+.vertical-align-bottom {
+  justify-content: flex-end;
+}
+
+.content-alignment-left {
+  align-items: flex-start;
+}
+
+.content-alignment-center {
+  align-items: center;
+}
+
+
+/* Responsive Styles */
+
+@media (max-width: 750px) {
+ .collection-banner-content {
+   padding:1.5rem;
+}
+.collection-banner-title {
+    font-size: 1.8rem;
+}
+.collection-banners-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+
+  .collection-banner-main,
+  .collection-banners-side {
+    /* flex: 0 0 100%; edited */
+    width: 100%;
+    flex-direction: row;
+  }
+
+ 
+}
+
