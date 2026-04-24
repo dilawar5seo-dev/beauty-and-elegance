@@ -52,6 +52,7 @@
       "name": "Image with text v3",
       "settings": {
         "page_width": false,
+        "image": "shopify://shop_images/hero2.png",
         "contain": false,
         "custom-border": false,
         "img-radius": 18,
