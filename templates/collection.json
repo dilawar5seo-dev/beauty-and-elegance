@@ -1,1 +1,171 @@
-{"sections":{"banner":{"type":"main-collection-banner","disabled":true,"settings":{"show_collection_description":true,"show_collection_image":false,"color_scheme":"scheme-1"}},"image_banner_wkjhKV":{"type":"image-banner","blocks":{"heading_pcjXtt":{"type":"heading","settings":{"heading":"{{ collection.title }}","heading_size":"h0"}}},"block_order":["heading_pcjXtt"],"name":"t:sections.image-banner.presets.name","settings":{"image":"shopify:\/\/shop_images\/shopall.png","image_overlay_opacity":0,"image_height":"adapt","image_behavior":"none","desktop_content_position":"middle-center","desktop_content_alignment":"center","show_text_box":false,"color_scheme":"scheme-3","stack_images_on_mobile":false,"mobile_content_alignment":"center","show_text_below":false}},"multicolumn_v1_nnGgUj":{"type":"multicolumn-v1","blocks":{"column_YYGtAP":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/col1.png","title":"<strong>Air Purifiers<\/strong>","text":"","link_label":"","link":"shopify:\/\/collections\/air-purifiers"}},"column_yLEBzc":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/col2.png","title":"<strong>Portable Fans<\/strong>","text":"","link_label":"","link":"shopify:\/\/collections\/portable-fans"}},"column_Jq9Epy":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/col3.png","title":"<strong>Diffusers<\/strong>","text":"","link_label":"","link":"shopify:\/\/collections\/diffusers"}},"column_gXfLTf":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/col4.png","title":"<strong>Home Devices<\/strong>","text":"","link_label":"","link":"shopify:\/\/collections\/home-devices"}},"column_PyhYmL":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/col5.png","title":"<strong>Kitchen Essentials<\/strong>","text":"","link_label":"","link":"shopify:\/\/collections\/kitchen-essentials"}},"column_fjCxjC":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/col6.png","title":"<strong>Cleaning Solutions<\/strong>","text":"","link_label":"","link":"shopify:\/\/collections\/cleaning-solutions"}}},"block_order":["column_YYGtAP","column_yLEBzc","column_Jq9Epy","column_gXfLTf","column_PyhYmL","column_fjCxjC"],"name":"Multicolumn V1","settings":{"title":"","description":"","heading_size":"h0","image_width":"full","scale_image":true,"flex_block":false,"image_ratio":"circle","button_label":"","button_link":"","columns_desktop":6,"column_alignment":"center","background_style":"none","block_bg":"","block_text":"","color_scheme":"","columns_mobile":"2","swipe_on_mobile":true,"padding_top":100,"padding_bottom":40}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":36,"columns_desktop":4,"columns_mobile":"2","color_scheme":"scheme-1","image_ratio":"square","image_shape":"default","icon_width1":20,"icon_width":11,"show_secondary_image":true,"show_vendor":false,"show_rating":false,"quick_add":"standard","enable_filtering":false,"filter_type":"horizontal","enable_sorting":false,"padding_top":0,"padding_bottom":40}}},"order":["banner","image_banner_wkjhKV","multicolumn_v1_nnGgUj","product-grid"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "image_banner_wkjhKV": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_pcjXtt": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pcjXtt"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "{{ collection.image }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "multicolumn_v1_nnGgUj": {
+      "type": "multicolumn-v1",
+      "blocks": {
+        "column_YYGtAP": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Air Purifiers</strong>",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/air-purifiers"
+          }
+        },
+        "column_yLEBzc": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Portable Fans</strong>",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/portable-fans"
+          }
+        },
+        "column_Jq9Epy": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Diffusers</strong>",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/diffusers"
+          }
+        },
+        "column_gXfLTf": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Home Devices</strong>",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/home-devices"
+          }
+        },
+        "column_PyhYmL": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Kitchen Essentials</strong>",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/kitchen-essentials"
+          }
+        },
+        "column_fjCxjC": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Cleaning Solutions</strong>",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/cleaning-solutions"
+          }
+        }
+      },
+      "block_order": [
+        "column_YYGtAP",
+        "column_yLEBzc",
+        "column_Jq9Epy",
+        "column_gXfLTf",
+        "column_PyhYmL",
+        "column_fjCxjC"
+      ],
+      "name": "Multicolumn V1",
+      "settings": {
+        "title": "",
+        "description": "",
+        "heading_size": "h0",
+        "deskheading_alignment": "flex-start",
+        "image_width": "full",
+        "scale_image": true,
+        "flex_block": false,
+        "image_ratio": "circle",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "block_bg": "",
+        "block_text": "",
+        "color_scheme": "",
+        "mobheading_alignment": "flex-start",
+        "columns_mobile": "2",
+        "show_sliderbtn": false,
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 40
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 36,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "icon_width1": 20,
+        "icon_width": 11,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "image_banner_wkjhKV",
+    "multicolumn_v1_nnGgUj",
+    "product-grid"
+  ]
+}
