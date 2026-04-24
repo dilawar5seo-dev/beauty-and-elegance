@@ -12,16 +12,19 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
+        },
+        "product_features_mikWTQ": {
+          "type": "product_features",
+          "settings": {
+            "heading": "",
+            "feature_1": "Boosts focus & energy",
+            "feature_2": "Delicious pink lemonade flavor",
+            "feature_3": "Boosting servings",
+            "feature_4": "Vegan, non-GMO, and clean formula"
+          }
         },
         "price": {
           "type": "price",
@@ -41,30 +44,41 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "payment_icons_tU6ACk": {
+          "type": "payment_icons",
+          "settings": {
+            "show_lock_icon": true,
+            "text": "Secure SSL Payments",
+            "payment_methods": "visa\nshopify_pay\npaypal\nmastercard\ndiscover\napple_pay\namerican_express"
           }
         },
         "description": {
           "type": "description",
           "settings": {}
         },
-        "share": {
-          "type": "share",
+        "rating_text_HCVEBp": {
+          "type": "rating_text",
           "settings": {
-            "share_label": "Share"
+            "block_image": 150,
+            "sub-text": "",
+            "sub_text_size": "body"
           }
         }
       },
       "block_order": [
-        "vendor",
         "title",
+        "product_features_mikWTQ",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "payment_icons_tU6ACk",
         "description",
-        "share"
+        "rating_text_HCVEBp"
       ],
       "settings": {
         "enable_sticky_info": true,
