@@ -1,1 +1,68 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","blocks":{"link_list_W8zie3":{"type":"link_list","settings":{"heading":"Explore","menu":"explore"}},"text_bU6rXi":{"type":"text","settings":{"heading":"Need Help?","subtext":"<p><strong>Call:<\/strong><br\/>+966552463923<br\/><strong>Email:<\/strong><br\/>cs@taam-store.com<\/p>"}},"link_list_LcVCTF":{"type":"link_list","settings":{"heading":"Programs","menu":"programs"}}},"block_order":["link_list_W8zie3","text_bU6rXi","link_list_LcVCTF"],"settings":{"color_scheme":"scheme-5","footer_logo":"shopify:\/\/shop_images\/footerlogo.svg","logo_width":200,"logo_width_mob":200,"newsletter_enable":true,"newsletter_heading":"Save $40 on your first order!\u2028","newsletter_desc":"Join for wellness tips, early product drops & exclusive deals.","enable_follow_on_shop":false,"show_social":true,"enable_country_selector":true,"enable_language_selector":false,"payment_enable":false,"show_policy":true,"margin_top":0,"padding_top":36,"padding_bottom":36,"padding_top_mob":36,"padding_bottom_mob":36}}},"order":["footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "link_list_W8zie3": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Explore",
+            "menu": ""
+          }
+        },
+        "text_bU6rXi": {
+          "type": "text",
+          "settings": {
+            "heading": "Need Help?",
+            "subtext": "<p><strong>Call:</strong><br/>+966552463923<br/><strong>Email:</strong><br/>cs@taam-store.com</p>"
+          }
+        },
+        "link_list_LcVCTF": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Programs",
+            "menu": ""
+          }
+        }
+      },
+      "block_order": [
+        "link_list_W8zie3",
+        "text_bU6rXi",
+        "link_list_LcVCTF"
+      ],
+      "settings": {
+        "color_scheme": "scheme-e8aa382c-7176-4b78-87e7-7c1514096350",
+        "logo_width": 200,
+        "logo_width_mob": 200,
+        "newsletter_enable": true,
+        "newsletter_heading": "Save $40 on your first order! ",
+        "newsletter_desc": "Join for wellness tips, early product drops & exclusive deals.",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mob": 36,
+        "padding_bottom_mob": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

@@ -539,7 +539,7 @@
       "settings": {
         "enable_pagewidth": true,
         "show_curve_bg": false,
-        "section_title": "",
+        "section_title": "<strong>Trusted by Everyone</strong>",
         "sub_title": "",
         "review_bg": "#ffffff",
         "review_text": "#000",
@@ -552,6 +552,51 @@
         "margin_top": 0,
         "margin_bottom": 0
       }
+    },
+    "faq_accordions_LB3PEA": {
+      "type": "faq-accordions",
+      "blocks": {
+        "question_UMAtpz": {
+          "type": "question",
+          "settings": {
+            "quest": "Can I test ride a Rexx bike before buying?",
+            "ans_content": "<p>Lorem ipsum dolor sit amet consectetur, id aliquet malesuada nisl vulputate nulla ut elit. Ut inties iutio sed epremmentum erat.</p>"
+          }
+        },
+        "question_U39Kp9": {
+          "type": "question",
+          "settings": {
+            "quest": "Do Rexx bikes come with a warranty?",
+            "ans_content": "<p>Lorem ipsum dolor sit amet consectetur. Porttitor amet ante maecenas armet ac nisl. Eros nam a purus volutpat.</p>"
+          }
+        },
+        "question_N9ymx3": {
+          "type": "question",
+          "settings": {
+            "quest": "What is your return or exchange policy?",
+            "ans_content": "<p>Lorem ipsum dolor sit amet consectetur, id aliquet malesuada nisl vulputate nulla ut elit.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_UMAtpz",
+        "question_U39Kp9",
+        "question_N9ymx3"
+      ],
+      "name": "FAQ accordions",
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "caption": "We're here to help!",
+        "desc": "Get in touch with customer care",
+        "btn-label": "Contact Us",
+        "btn-link": "",
+        "color_scheme_faqbox": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mob": 36,
+        "padding_bottom_mob": 36
+      }
     }
   },
   "order": [
@@ -563,6 +608,7 @@
     "video_reviews_HbhFNj",
     "image_grid_banner_mtEiRJ",
     "featured_collection_v1_G8GhVg",
-    "review_column_9HqtP6"
+    "review_column_9HqtP6",
+    "faq_accordions_LB3PEA"
   ]
 }
