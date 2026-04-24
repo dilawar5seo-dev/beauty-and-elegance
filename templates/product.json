@@ -114,10 +114,194 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "multicolumn_v1_49LR63": {
+      "type": "multicolumn-v1",
+      "blocks": {
+        "column_CyyHMF": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Y66tpJ": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RpzfEr": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_CyyHMF",
+        "column_Y66tpJ",
+        "column_RpzfEr"
+      ],
+      "name": "Multicolumn V1",
+      "settings": {
+        "title": "Multicolumn",
+        "description": "",
+        "heading_size": "h1",
+        "deskheading_alignment": "flex-start",
+        "image_width": "fifth",
+        "scale_image": false,
+        "flex_block": true,
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "block_bg": "#f3f3f3",
+        "block_text": "",
+        "color_scheme": "",
+        "mobheading_alignment": "flex-start",
+        "columns_mobile": "1",
+        "show_sliderbtn": false,
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "review_column_YBkmMg": {
+      "type": "review-column",
+      "blocks": {
+        "text_column_JAQaEb": {
+          "type": "text_column",
+          "settings": {
+            "title": "",
+            "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
+            "arthur": "",
+            "arthur-rating-text": ""
+          }
+        },
+        "text_column_L7eDk9": {
+          "type": "text_column",
+          "settings": {
+            "title": "",
+            "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
+            "arthur": "",
+            "arthur-rating-text": ""
+          }
+        },
+        "text_column_3hBbwe": {
+          "type": "text_column",
+          "settings": {
+            "title": "",
+            "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
+            "arthur": "",
+            "arthur-rating-text": ""
+          }
+        },
+        "text_column_WbAjet": {
+          "type": "text_column",
+          "settings": {
+            "title": "",
+            "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
+            "arthur": "",
+            "arthur-rating-text": ""
+          }
+        },
+        "text_column_9ahXyb": {
+          "type": "text_column",
+          "settings": {
+            "title": "",
+            "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
+            "arthur": "",
+            "arthur-rating-text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_column_JAQaEb",
+        "text_column_L7eDk9",
+        "text_column_3hBbwe",
+        "text_column_WbAjet",
+        "text_column_9ahXyb"
+      ],
+      "name": "Review Text Columns",
+      "settings": {
+        "enable_pagewidth": true,
+        "show_curve_bg": false,
+        "section_title": "<strong>Trusted by Everyone</strong>",
+        "sub_title": "",
+        "review_bg": "#ffffff",
+        "review_text": "#000000",
+        "nav_button_color": "#000000",
+        "nav_button_bg": "#ffffff",
+        "nav_button_size": 40,
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "faq_accordions_3CPePF": {
+      "type": "faq-accordions",
+      "blocks": {
+        "question_AfqbQp": {
+          "type": "question",
+          "settings": {
+            "quest": "Can I test ride a Rexx bike before buying?",
+            "ans_content": "<p>Lorem ipsum dolor sit amet consectetur, id aliquet malesuada nisl vulputate nulla ut elit. Ut inties iutio sed epremmentum erat.</p>"
+          }
+        },
+        "question_wgHN6c": {
+          "type": "question",
+          "settings": {
+            "quest": "Do Rexx bikes come with a warranty?",
+            "ans_content": "<p>Lorem ipsum dolor sit amet consectetur. Porttitor amet ante maecenas armet ac nisl. Eros nam a purus volutpat.</p>"
+          }
+        },
+        "question_3YYwQN": {
+          "type": "question",
+          "settings": {
+            "quest": "What is your return or exchange policy?",
+            "ans_content": "<p>Lorem ipsum dolor sit amet consectetur, id aliquet malesuada nisl vulputate nulla ut elit.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_AfqbQp",
+        "question_wgHN6c",
+        "question_3YYwQN"
+      ],
+      "name": "FAQ accordions",
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "caption": "We're here to help!",
+        "desc": "Get in touch with customer care",
+        "btn-label": "Contact Us",
+        "btn-link": "",
+        "color_scheme_faqbox": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mob": 36,
+        "padding_bottom_mob": 36
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "multicolumn_v1_49LR63",
+    "review_column_YBkmMg",
+    "faq_accordions_3CPePF"
   ]
 }
