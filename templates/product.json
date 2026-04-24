@@ -56,16 +56,13 @@
             "payment_methods": "visa\nshopify_pay\npaypal\nmastercard\ndiscover\napple_pay\namerican_express"
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
-        "rating_text_HCVEBp": {
-          "type": "rating_text",
+        "collapsible_tab_nJYrqF": {
+          "type": "collapsible_tab",
           "settings": {
-            "block_image": 150,
-            "sub-text": "",
-            "sub_text_size": "body"
+            "heading": "Description",
+            "icon": "none",
+            "content": "{{ product.description }}",
+            "page": ""
           }
         }
       },
@@ -77,8 +74,7 @@
         "quantity_selector",
         "buy_buttons",
         "payment_icons_tU6ACk",
-        "description",
-        "rating_text_HCVEBp"
+        "collapsible_tab_nJYrqF"
       ],
       "settings": {
         "enable_sticky_info": true,
