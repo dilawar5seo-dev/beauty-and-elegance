@@ -154,6 +154,7 @@
         "banner_qamRXW": {
           "type": "banner",
           "settings": {
+            "image": "shopify://shop_images/lipsticks.png",
             "title": "Collection",
             "subtitle": "BANNER HEADLINE",
             "description": "<p>Banner description text goes here.</p>",
