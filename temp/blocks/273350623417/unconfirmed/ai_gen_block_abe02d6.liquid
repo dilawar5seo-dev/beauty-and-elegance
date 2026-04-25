@@ -1,6 +1,288 @@
+{% doc %}
+  @prompt
+    create a scrolling text section, text should be editable from customizer
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-scrolling-text-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    background-color: {{ block.settings.background_color }};
+    padding: {{ block.settings.padding_vertical }}px 0;
+  }
+
+  .ai-scrolling-text-wrapper-{{ ai_gen_id }} {
+    display: flex;
+    width: fit-content;
+    animation: ai-scroll-{{ ai_gen_id }} {{ block.settings.scroll_speed }}s linear infinite;
+  }
+
+  .ai-scrolling-text-content-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: {{ block.settings.text_spacing }}px;
+  }
+
+  .ai-scrolling-text-item-{{ ai_gen_id }} {
+    font-size: {{ block.settings.font_size }}px;
+    color: {{ block.settings.text_color }};
+    font-weight: {{ block.settings.font_weight }};
+    text-transform: {{ block.settings.text_transform }};
+  }
+
+  .ai-scrolling-text-separator-{{ ai_gen_id }} {
+    color: {{ block.settings.separator_color }};
+    font-size: {{ block.settings.font_size }}px;
+  }
+
+  @keyframes ai-scroll-{{ ai_gen_id }} {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .ai-scrolling-text-wrapper-{{ ai_gen_id }}:hover {
+    animation-play-state: {% if block.settings.pause_on_hover %}paused{% else %}running{% endif %};
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-scrolling-text-item-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.font_size }}px * 0.8);
+    }
+
+    .ai-scrolling-text-separator-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.font_size }}px * 0.8);
+    }
+  }
+{% endstyle %}
+
+<scrolling-text-{{ ai_gen_id }} class="ai-scrolling-text-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-scrolling-text-wrapper-{{ ai_gen_id }}">
+    <div class="ai-scrolling-text-content-{{ ai_gen_id }}">
+      <span class="ai-scrolling-text-item-{{ ai_gen_id }}">{{ block.settings.scrolling_text }}</span>
+      {% if block.settings.show_separator %}
+        <span class="ai-scrolling-text-separator-{{ ai_gen_id }}">{{ block.settings.separator_symbol }}</span>
+      {% endif %}
+      <span class="ai-scrolling-text-item-{{ ai_gen_id }}">{{ block.settings.scrolling_text }}</span>
+      {% if block.settings.show_separator %}
+        <span class="ai-scrolling-text-separator-{{ ai_gen_id }}">{{ block.settings.separator_symbol }}</span>
+      {% endif %}
+      <span class="ai-scrolling-text-item-{{ ai_gen_id }}">{{ block.settings.scrolling_text }}</span>
+      {% if block.settings.show_separator %}
+        <span class="ai-scrolling-text-separator-{{ ai_gen_id }}">{{ block.settings.separator_symbol }}</span>
+      {% endif %}
+      <span class="ai-scrolling-text-item-{{ ai_gen_id }}">{{ block.settings.scrolling_text }}</span>
+      {% if block.settings.show_separator %}
+        <span class="ai-scrolling-text-separator-{{ ai_gen_id }}">{{ block.settings.separator_symbol }}</span>
+      {% endif %}
+    </div>
+    <div class="ai-scrolling-text-content-{{ ai_gen_id }}" aria-hidden="true">
+      <span class="ai-scrolling-text-item-{{ ai_gen_id }}">{{ block.settings.scrolling_text }}</span>
+      {% if block.settings.show_separator %}
+        <span class="ai-scrolling-text-separator-{{ ai_gen_id }}">{{ block.settings.separator_symbol }}</span>
+      {% endif %}
+      <span class="ai-scrolling-text-item-{{ ai_gen_id }}">{{ block.settings.scrolling_text }}</span>
+      {% if block.settings.show_separator %}
+        <span class="ai-scrolling-text-separator-{{ ai_gen_id }}">{{ block.settings.separator_symbol }}</span>
+      {% endif %}
+      <span class="ai-scrolling-text-item-{{ ai_gen_id }}">{{ block.settings.scrolling_text }}</span>
+      {% if block.settings.show_separator %}
+        <span class="ai-scrolling-text-separator-{{ ai_gen_id }}">{{ block.settings.separator_symbol }}</span>
+      {% endif %}
+      <span class="ai-scrolling-text-item-{{ ai_gen_id }}">{{ block.settings.scrolling_text }}</span>
+      {% if block.settings.show_separator %}
+        <span class="ai-scrolling-text-separator-{{ ai_gen_id }}">{{ block.settings.separator_symbol }}</span>
+      {% endif %}
+    </div>
+  </div>
+</scrolling-text-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class ScrollingText{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.adjustScrollSpeed();
+      }
+
+      adjustScrollSpeed() {
+        const wrapper = this.querySelector('.ai-scrolling-text-wrapper-{{ ai_gen_id }}');
+        if (wrapper) {
+          const contentWidth = wrapper.scrollWidth / 2;
+          wrapper.style.setProperty('--content-width', `${contentWidth}px`);
+        }
+      }
+    }
+
+    customElements.define('scrolling-text-{{ ai_gen_id }}', ScrollingText{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Scrolling text",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "scrolling_text",
+      "label": "Scrolling text",
+      "default": "Free shipping on orders over 100 SAR"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_separator",
+      "label": "Show separator",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "separator_symbol",
+      "label": "Separator symbol",
+      "default": "★"
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "label": "Font size",
+      "min": 12,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "select",
+      "id": "font_weight",
+      "label": "Font weight",
+      "options": [
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semi bold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        }
+      ],
+      "default": "600"
+    },
+    {
+      "type": "select",
+      "id": "text_transform",
+      "label": "Text transform",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "uppercase",
+          "label": "Uppercase"
+        },
+        {
+          "value": "lowercase",
+          "label": "Lowercase"
+        },
+        {
+          "value": "capitalize",
+          "label": "Capitalize"
+        }
+      ],
+      "default": "uppercase"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "separator_color",
+      "label": "Separator color",
+      "default": "#c5177c"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#121212"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "padding_vertical",
+      "label": "Vertical padding",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "text_spacing",
+      "label": "Text spacing",
+      "min": 20,
+      "max": 100,
+      "step": 10,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Animation"
+    },
+    {
+      "type": "range",
+      "id": "scroll_speed",
+      "label": "Scroll speed",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "s",
+      "default": 20
+    },
+    {
+      "type": "checkbox",
+      "id": "pause_on_hover",
+      "label": "Pause on hover",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "name": "Scrolling text"
+    }
+  ]
+}
 {% endschema %}
