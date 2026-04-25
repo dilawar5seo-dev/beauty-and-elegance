@@ -45,7 +45,7 @@
     "card_style": "card",
     "card_image_padding": 20,
     "card_text_alignment": "left",
-    "card_color_scheme": "scheme-1",
+    "card_color_scheme": "scheme-9f014af7-c81e-45fb-b0f6-3d84ca3ed99d",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
     "card_corner_radius": 12,
@@ -203,9 +203,9 @@
           "background": "#ffffff",
           "background_gradient": "",
           "text": "#292034",
-          "button": "#292034",
+          "button": "#c5177c",
           "button_label": "#ffffff",
-          "secondary_button_label": "#292034",
+          "secondary_button_label": "#c5177c",
           "shadow": "#292034"
         }
       },
