@@ -14,6 +14,14 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "image_K6XwBD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/beautyandelegance-logo-400.webp",
+            "image_width": 400,
+            "alignment": "center"
+          }
+        },
         "link_list_W8zie3": {
           "type": "link_list",
           "settings": {
@@ -37,14 +45,15 @@
         }
       },
       "block_order": [
+        "image_K6XwBD",
         "link_list_W8zie3",
         "text_bU6rXi",
         "link_list_LcVCTF"
       ],
       "settings": {
         "color_scheme": "scheme-9f014af7-c81e-45fb-b0f6-3d84ca3ed99d",
-        "footer_logo": "shopify://shop_images/beautyandelegance-logo-400.webp",
-        "logo_width": 100,
+        "footer_logo": "shopify://shop_images/footer.webp",
+        "logo_width": 200,
         "logo_width_mob": 100,
         "newsletter_enable": true,
         "newsletter_heading": "Save $40 on your first order! ",
