@@ -507,23 +507,13 @@
             "arthur": "",
             "arthur-rating-text": ""
           }
-        },
-        "text_column_jmPAUf": {
-          "type": "text_column",
-          "settings": {
-            "title": "",
-            "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
-            "arthur": "",
-            "arthur-rating-text": ""
-          }
         }
       },
       "block_order": [
         "text_column_XJBXwR",
         "text_column_NgVyhf",
         "text_column_x8Rq4X",
-        "text_column_Dmwaz7",
-        "text_column_jmPAUf"
+        "text_column_Dmwaz7"
       ],
       "name": "Review Text Columns",
       "settings": {
