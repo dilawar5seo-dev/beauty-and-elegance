@@ -260,6 +260,21 @@
           "description_html": "للأسئلة المتعلقة بطلبك، %{contact_us}.",
           "paid_today": "إجمالي المدفوعات اليوم"
         }
+      },
+      "payment_errors": {
+        "currency": {
+          "no_longer_supported": "عملة المتجر لم تعد مدعومة."
+        }
+      },
+      "split_delivery": {
+        "cross_border": {
+          "modal": {
+            "heading": "تغيير البلد؟",
+            "content": "سيؤدي هذا إلى إعادة تعيين كافة العناصر إلى الشحن. يجب أن تكون مواقع الاستلام والشحن في نفس البلد.",
+            "change_country": "تغيير الدولة"
+          },
+          "banner": "تم تحديث طريقة التوصيل الخاصة بك"
+        }
       }
     }
   }
