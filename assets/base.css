@@ -2830,6 +2830,11 @@ input[type='checkbox'] {
   margin-right: -1.2rem;
 }
 
+.header__icon--cart svg rect {
+  fill:#C5177C;
+  stroke:1px;
+}
+
 .header__icon--menu[aria-expanded='true']::before {
   content: '';
   top: 100%;
