@@ -549,27 +549,35 @@
         "question_UMAtpz": {
           "type": "question",
           "settings": {
-            "quest": "Can I test ride a Rexx bike before buying?",
-            "ans_content": "<p>Lorem ipsum dolor sit amet consectetur, id aliquet malesuada nisl vulputate nulla ut elit. Ut inties iutio sed epremmentum erat.</p>"
+            "quest": "Do you offer Cash on Delivery (COD)?",
+            "ans_content": "<p>Yes, we offer Cash on Delivery across Saudi Arabia for your convenience.</p>"
+          }
+        },
+        "question_496Gfh": {
+          "type": "question",
+          "settings": {
+            "quest": "How long does shipping take?",
+            "ans_content": "<p>Orders are usually delivered within <strong>2–5 business days</strong> across Saudi Arabia.</p>"
           }
         },
         "question_U39Kp9": {
           "type": "question",
           "settings": {
-            "quest": "Do Rexx bikes come with a warranty?",
-            "ans_content": "<p>Lorem ipsum dolor sit amet consectetur. Porttitor amet ante maecenas armet ac nisl. Eros nam a purus volutpat.</p>"
+            "quest": "Are your products original?",
+            "ans_content": "<p>Yes, all our products are <strong>100% original and high quality</strong>, sourced from trusted suppliers.</p>"
           }
         },
         "question_N9ymx3": {
           "type": "question",
           "settings": {
-            "quest": "What is your return or exchange policy?",
-            "ans_content": "<p>Lorem ipsum dolor sit amet consectetur, id aliquet malesuada nisl vulputate nulla ut elit.</p>"
+            "quest": "Can I return or exchange a product?",
+            "ans_content": "<p>Yes, we offer <strong>easy returns within 7 days</strong> if the product is unused and in original packaging.</p>"
           }
         }
       },
       "block_order": [
         "question_UMAtpz",
+        "question_496Gfh",
         "question_U39Kp9",
         "question_N9ymx3"
       ],
@@ -577,7 +585,7 @@
       "settings": {
         "heading": "Frequently Asked Questions",
         "caption": "We're here to help!",
-        "desc": "Get in touch with customer care",
+        "desc": "Get In Touch With Customer Support",
         "btn-label": "Contact Us",
         "btn-link": "",
         "color_scheme_faqbox": "",
