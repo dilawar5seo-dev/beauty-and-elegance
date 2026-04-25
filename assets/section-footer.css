@@ -598,6 +598,10 @@
 .footer .footer__blocks-wrapper .footer-block__details-content a {
   text-decoration: none;
 }
+.footer .footer-logo-text {
+  font-size:13px;
+  color:#00000020;
+}
 .footer .footer-logo-wr {
   display: inline-flex;
 }
