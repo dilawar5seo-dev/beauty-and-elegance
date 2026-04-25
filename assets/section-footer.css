@@ -600,7 +600,7 @@
 }
 .footer .footer-logo-text {
   font-size:14px;
-  text-align:center;
+  text-align:left;
   color:#ffffff;
 }
 .footer .footer-logo-wr {
@@ -650,6 +650,9 @@
   .footer .footer-top-wr {
     flex-direction: column-reverse;
     gap: 1rem;
+  }
+  .footer .footer-logo-text {
+    text-align:center;
   }
   .footer-top-wr .footer__blocks-wrapper {
     width: 100%;
