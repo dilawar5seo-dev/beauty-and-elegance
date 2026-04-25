@@ -462,20 +462,20 @@
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "color_scheme": "scheme-4",
-        "image_ratio": "adapt",
+        "color_scheme": "scheme-e8aa382c-7176-4b78-87e7-7c1514096350",
+        "image_ratio": "square",
         "image_shape": "default",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
+        "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36,
-        "show_lock_icon": true,
-        "text": "Secure SSL Payments",
-        "payment_methods": "visa\nshopify_pay\npaypal\nmastercard\ndiscover\napple_pay\namerican_express"
+        "show_lock_icon": false,
+        "text": "",
+        "payment_methods": ""
       }
     },
     "review_column_9HqtP6": {
@@ -487,6 +487,7 @@
             "title": "",
             "text": "<p>رذاذه ناعم وما يخرب المكياج، استخدمه يوميًا وأنصح فيه جدًا</p>",
             "arthur": "",
+            "arthur-review-icon": "shopify://shop_images/stars.png",
             "arthur-rating-text": ""
           }
         },
@@ -496,6 +497,7 @@
             "title": "",
             "text": "<p>Lasts all day without smudging. Perfect for everyday use.<br/></p>",
             "arthur": "",
+            "arthur-review-icon": "shopify://shop_images/stars.png",
             "arthur-rating-text": ""
           }
         },
@@ -505,6 +507,7 @@
             "title": "",
             "text": "<p>ما يحرق الشعر ويخليه ناعم ولمع، أفضل جهاز جربته لحد الآن.</p>",
             "arthur": "",
+            "arthur-review-icon": "shopify://shop_images/stars.png",
             "arthur-rating-text": ""
           }
         },
@@ -514,6 +517,7 @@
             "title": "",
             "text": "<p>Easy to apply and stays on even after eating. One of my favorite lipsticks.</p>",
             "arthur": "",
+            "arthur-review-icon": "shopify://shop_images/stars.png",
             "arthur-rating-text": ""
           }
         }
@@ -587,8 +591,8 @@
         "desc": "Get In Touch With Customer Support",
         "btn-label": "Contact Us",
         "btn-link": "",
-        "color_scheme_faqbox": "",
-        "color_scheme": "",
+        "color_scheme_faqbox": "scheme-e8aa382c-7176-4b78-87e7-7c1514096350",
+        "color_scheme": "scheme-5",
         "padding_top": 36,
         "padding_bottom": 36,
         "padding_top_mob": 36,

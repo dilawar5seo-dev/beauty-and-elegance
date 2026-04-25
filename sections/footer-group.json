@@ -18,7 +18,7 @@
           "type": "link_list",
           "settings": {
             "heading": "Explore",
-            "menu": ""
+            "menu": "footer"
           }
         },
         "text_bU6rXi": {
@@ -42,9 +42,10 @@
         "link_list_LcVCTF"
       ],
       "settings": {
-        "color_scheme": "scheme-e8aa382c-7176-4b78-87e7-7c1514096350",
-        "logo_width": 200,
-        "logo_width_mob": 200,
+        "color_scheme": "scheme-9f014af7-c81e-45fb-b0f6-3d84ca3ed99d",
+        "footer_logo": "shopify://shop_images/beautyandelegance-logo-400.webp",
+        "logo_width": 100,
+        "logo_width_mob": 100,
         "newsletter_enable": true,
         "newsletter_heading": "Save $40 on your first order! ",
         "newsletter_desc": "Join for wellness tips, early product drops & exclusive deals.",
