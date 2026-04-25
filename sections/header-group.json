@@ -14,15 +14,31 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_VaFFdY": {
+          "type": "announcement",
+          "settings": {
+            "text": "Premium Quality You Can Trust",
+            "link": ""
+          }
+        },
+        "announcement_x6tKFF": {
+          "type": "announcement",
+          "settings": {
+            "text": "100% Original Beauty Products",
+            "link": ""
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Enjoy Free Shipping + 2-Year Warranty on all massage devices!",
+            "text": "Fast Shipping in KSA | Pay When You Receive",
             "link": ""
           }
         }
       },
       "block_order": [
+        "announcement_VaFFdY",
+        "announcement_x6tKFF",
         "announcement-bar-0"
       ],
       "settings": {
