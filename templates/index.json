@@ -503,16 +503,7 @@
           "type": "text_column",
           "settings": {
             "title": "",
-            "text": "<p><br/>Easy to apply and stays on even after eating. One of my favorite lipsticks.<br/><br/></p>",
-            "arthur": "",
-            "arthur-rating-text": ""
-          }
-        },
-        "text_column_TeanLU": {
-          "type": "text_column",
-          "settings": {
-            "title": "",
-            "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
+            "text": "<p>Easy to apply and stays on even after eating. One of my favorite lipsticks.</p>",
             "arthur": "",
             "arthur-rating-text": ""
           }
@@ -522,8 +513,7 @@
         "text_column_XJBXwR",
         "text_column_x8Rq4X",
         "text_column_NgVyhf",
-        "text_column_Dmwaz7",
-        "text_column_TeanLU"
+        "text_column_Dmwaz7"
       ],
       "name": "Review Text Columns",
       "settings": {
