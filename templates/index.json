@@ -285,7 +285,7 @@
         "scale_image": false,
         "flex_block": true,
         "image_ratio": "adapt",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "columns_desktop": 3,
         "column_alignment": "left",
@@ -476,7 +476,7 @@
           "type": "text_column",
           "settings": {
             "title": "",
-            "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
+            "text": "<p>رذاذه ناعم وما يخرب المكياج، استخدمه يوميًا وأنصح فيه جدًا</p>",
             "arthur": "",
             "arthur-rating-text": ""
           }
@@ -485,7 +485,7 @@
           "type": "text_column",
           "settings": {
             "title": "",
-            "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
+            "text": "<p><br/>ما يحرق الشعر ويخليه ناعم ولمع، أفضل جهاز جربته لحد الآن.<br/><br/></p>",
             "arthur": "",
             "arthur-rating-text": ""
           }
@@ -494,7 +494,7 @@
           "type": "text_column",
           "settings": {
             "title": "",
-            "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
+            "text": "<p><br/>Lasts all day without smudging. Perfect for everyday use.<br/><br/></p>",
             "arthur": "",
             "arthur-rating-text": ""
           }
@@ -503,7 +503,7 @@
           "type": "text_column",
           "settings": {
             "title": "",
-            "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
+            "text": "<p><br/>Easy to apply and stays on even after eating. One of my favorite lipsticks.<br/><br/></p>",
             "arthur": "",
             "arthur-rating-text": ""
           }
