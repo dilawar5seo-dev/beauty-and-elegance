@@ -485,7 +485,7 @@
           "type": "text_column",
           "settings": {
             "title": "",
-            "text": "<p><br/>Lasts all day without smudging. Perfect for everyday use.<br/><br/></p>",
+            "text": "<p>Lasts all day without smudging. Perfect for everyday use.<br/></p>",
             "arthur": "",
             "arthur-rating-text": ""
           }
@@ -494,7 +494,7 @@
           "type": "text_column",
           "settings": {
             "title": "",
-            "text": "<p><br/>ما يحرق الشعر ويخليه ناعم ولمع، أفضل جهاز جربته لحد الآن.<br/><br/></p>",
+            "text": "<p>ما يحرق الشعر ويخليه ناعم ولمع، أفضل جهاز جربته لحد الآن.</p>",
             "arthur": "",
             "arthur-rating-text": ""
           }
@@ -507,13 +507,23 @@
             "arthur": "",
             "arthur-rating-text": ""
           }
+        },
+        "text_column_TeanLU": {
+          "type": "text_column",
+          "settings": {
+            "title": "",
+            "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
+            "arthur": "",
+            "arthur-rating-text": ""
+          }
         }
       },
       "block_order": [
         "text_column_XJBXwR",
         "text_column_x8Rq4X",
         "text_column_NgVyhf",
-        "text_column_Dmwaz7"
+        "text_column_Dmwaz7",
+        "text_column_TeanLU"
       ],
       "name": "Review Text Columns",
       "settings": {
