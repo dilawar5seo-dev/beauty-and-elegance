@@ -160,11 +160,11 @@
           "type": "banner",
           "settings": {
             "image": "shopify://shop_images/lipsticks_54e95121-a803-437e-af19-a1bf83171ee7.png",
-            "title": "Collection",
+            "title": "Lip Sticks",
             "subtitle": "",
-            "description": "<p>Banner description text goes here.</p>",
+            "description": "",
             "button_text": "SHOP NOW",
-            "button_link": "#",
+            "button_link": "shopify://collections/lipsticks",
             "discount_text": "15% OFF COLLECTIONS",
             "vertical_alignment": "middle",
             "text_alignment": "left"
@@ -174,11 +174,11 @@
           "type": "banner",
           "settings": {
             "image": "shopify://shop_images/2_87e3bea7-76a8-4bae-87b2-1d6198f8f62b.png",
-            "title": "Collection",
+            "title": "Face Powder",
             "subtitle": "",
             "description": "",
             "button_text": "SHOP NOW",
-            "button_link": "",
+            "button_link": "shopify://collections/face-powders",
             "discount_text": "",
             "vertical_alignment": "middle",
             "text_alignment": "left"
@@ -188,11 +188,11 @@
           "type": "banner",
           "settings": {
             "image": "shopify://shop_images/1_9b341af6-bdd7-43d2-9d99-9aa5480c6433.png",
-            "title": "Collection",
+            "title": "Mascara Collection",
             "subtitle": "",
             "description": "",
             "button_text": "SHOP NOW",
-            "button_link": "",
+            "button_link": "shopify://collections/mascaras",
             "discount_text": "",
             "vertical_alignment": "middle",
             "text_alignment": "left"
