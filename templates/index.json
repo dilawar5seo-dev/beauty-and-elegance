@@ -82,17 +82,17 @@
             "title": "Makeup Essentials",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify://collections/makeup"
           }
         },
         "column_9Fa3CU": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/3.png",
+            "image": "shopify://shop_images/2.png",
             "title": "Hair Styling Tools",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify://collections/hair-styling-devices"
           }
         },
         "column_BCYBGM": {
@@ -102,7 +102,7 @@
             "title": "Fragrances",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify://collections/fragrances"
           }
         },
         "column_gUNcai": {
@@ -112,7 +112,7 @@
             "title": "Beauty & Personal Care",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify://collections/care"
           }
         }
       },
