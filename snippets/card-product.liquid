@@ -233,7 +233,7 @@ font-size :12px;
               aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
             >
               {% comment %} edited {{ card_product.title | escape }} {% endcomment %}
-              {{ card_product.title | escape | truncate:10 }}
+              {{ card_product.title | escape | truncate:30 }}
             </a>
           </h3>
           <div class="card-information">
