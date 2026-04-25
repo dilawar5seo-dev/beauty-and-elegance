@@ -396,6 +396,7 @@
         "banner_hUEe39": {
           "type": "banner",
           "settings": {
+            "image": "shopify://shop_images/Untitled_design_0633ffac-4aba-419c-9b63-587465988f5a.png",
             "title": "Collection",
             "subtitle": "BANNER HEADLINE",
             "description": "<p>Banner description text goes here.</p>",
@@ -409,6 +410,7 @@
         "banner_tEjWPx": {
           "type": "banner",
           "settings": {
+            "image": "shopify://shop_images/Offers.png",
             "title": "Collection",
             "subtitle": "BANNER HEADLINE",
             "description": "<p>Banner description text goes here.</p>",
