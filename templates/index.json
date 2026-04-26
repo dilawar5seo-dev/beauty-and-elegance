@@ -167,7 +167,7 @@
             "button_text": "SHOP NOW",
             "button_link": "shopify://collections/lipsticks",
             "discount_text": "15% OFF COLLECTIONS",
-            "vertical_alignment": "middle",
+            "vertical_alignment": "bottom",
             "text_alignment": "left"
           }
         },
