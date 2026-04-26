@@ -91,7 +91,7 @@
               type="text"
               name="contact[{{ 'templates.contact.form.name' | t }}]"
               value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
-              placeholder="John Smith"
+              placeholder=""
             >
           </div>
           <div class="field field--with-error">
@@ -114,7 +114,7 @@
                 aria-invalid="true"
                 aria-describedby="ContactForm-email-error-{{ section.id }}"
               {% endif %}
-              placeholder="johnsmith@gmail.com"
+              placeholder="abc@xyz.com"
               required="required"
             >
             {%- if form.errors contains 'email' -%}
