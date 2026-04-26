@@ -26,7 +26,7 @@
           "type": "link_list",
           "settings": {
             "heading": "Explore",
-            "menu": "footer"
+            "menu": "main-menu"
           }
         },
         "text_bU6rXi": {
@@ -35,20 +35,12 @@
             "heading": "Need Help?",
             "subtext": "<p><strong>Call:</strong><br/><a href=\"tel:+966567096995\" target=\"_blank\">+966567096995</a></p><p><strong>Email:</strong><br/><a href=\"mailto:support@beautyandelegance.store\" target=\"_blank\">support@beautyandelegance.store</a></p>"
           }
-        },
-        "link_list_LcVCTF": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Programs",
-            "menu": ""
-          }
         }
       },
       "block_order": [
         "image_K6XwBD",
         "link_list_W8zie3",
-        "text_bU6rXi",
-        "link_list_LcVCTF"
+        "text_bU6rXi"
       ],
       "settings": {
         "color_scheme": "scheme-e8aa382c-7176-4b78-87e7-7c1514096350",
