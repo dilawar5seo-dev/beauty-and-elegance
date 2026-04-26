@@ -305,7 +305,7 @@
         "mobheading_alignment": "flex-start",
         "columns_mobile": "1",
         "show_sliderbtn": false,
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -470,8 +470,8 @@
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "standard",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36,
         "show_lock_icon": false,
