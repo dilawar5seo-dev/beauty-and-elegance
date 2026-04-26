@@ -18,6 +18,7 @@
         },
         "product_features_mikWTQ": {
           "type": "product_features",
+          "disabled": true,
           "settings": {
             "heading": "",
             "feature_1": "Boosts focus & energy",
