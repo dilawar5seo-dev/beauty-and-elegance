@@ -147,7 +147,7 @@
         "columns_desktop": 4,
         "columns_mobile": "1",
         "color_scheme": "scheme-1",
-        "image_ratio": "square",
+        "image_ratio": "portrait",
         "image_shape": "default",
         "icon_width1": 20,
         "icon_width": 11,
