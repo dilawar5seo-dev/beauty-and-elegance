@@ -33,7 +33,8 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image_overlay_opacity": 0,
+        "image": "shopify://shop_images/1.svg",
+        "image_overlay_opacity": 20,
         "image_height": "adapt",
         "image_behavior": "none",
         "desktop_content_position": "middle-center",
