@@ -408,11 +408,11 @@
           "settings": {
             "image": "shopify://shop_images/Untitled_design_0633ffac-4aba-419c-9b63-587465988f5a.png",
             "title": "Hair Styling Devices",
-            "subtitle": "BANNER HEADLINE",
-            "description": "<p>Banner description text goes here.</p>",
+            "subtitle": "",
+            "description": "<p>Enrich your Hair style with our styling devices collection</p>",
             "button_text": "SHOP NOW",
-            "button_link": "#",
-            "discount_text": "15% OFF COLLECTIONS",
+            "button_link": "shopify://collections/okema",
+            "discount_text": "",
             "vertical_alignment": "middle",
             "text_alignment": "left"
           }
