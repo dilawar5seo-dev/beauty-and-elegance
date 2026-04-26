@@ -21,6 +21,9 @@
   .footer .grid {
     display: block;
   }
+  .footer-bottom-logo {
+     display: block;
+  }
 
   .footer-block.grid__item {
     padding: 0;
