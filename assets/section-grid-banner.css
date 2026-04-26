@@ -62,7 +62,6 @@
 
 .collection-banner-main .collection-banner-content {
   width: 100%;
-  height:370px;
 }
 
 .collection-banner-title {
@@ -132,7 +131,7 @@
 
 /* Responsive Styles */
 
-@media (max-width: 750px) {
+@media (max-width: 749px) {
  .collection-banner-content {
    padding:1.5rem;
 }
@@ -144,7 +143,10 @@
     gap: 15px;
   }
   
-
+  .collection-banner-main .collection-banner-content{
+    height:370px;  
+  }
+  
   .collection-banner-main,
   .collection-banners-side {
     /* flex: 0 0 100%; edited */
