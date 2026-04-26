@@ -1,28 +1,30 @@
 {% comment %} <link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'"> {% endcomment %}
- {{ 'component-list-menu.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-list-menu.css' | asset_url | stylesheet_tag: preload: true }}
 
 {% comment %} <link rel="stylesheet" href="{{ 'component-search.css' | asset_url }}" media="print" onload="this.media='all'"> {% endcomment %}
- {{ 'component-search.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-search.css' | asset_url | stylesheet_tag: preload: true }}
 
 {% comment %} <link rel="stylesheet" href="{{ 'component-menu-drawer.css' | asset_url }}" media="print" onload="this.media='all'"> {% endcomment %}
- {{ 'component-menu-drawer.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-menu-drawer.css' | asset_url | stylesheet_tag: preload: true }}
 
-{% comment %} <link
-  rel="stylesheet"
-  href="{{ 'component-cart-notification.css' | asset_url }}"
-  media="print"
-  onload="this.media='all'"
-> {% endcomment %}
-   {{ 'component-cart-notification.css' | asset_url | stylesheet_tag: preload: true }}
+{% comment %}
+  <link
+    rel="stylesheet"
+    href="{{ 'component-cart-notification.css' | asset_url }}"
+    media="print"
+    onload="this.media='all'"
+  >
+{% endcomment %}
+{{ 'component-cart-notification.css' | asset_url | stylesheet_tag: preload: true }}
 
 {%- if settings.predictive_search_enabled -%}
   {% comment %} <link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'"> {% endcomment %}
-   {{ 'component-price.css' | asset_url | stylesheet_tag: preload: true }}
+  {{ 'component-price.css' | asset_url | stylesheet_tag: preload: true }}
 {%- endif -%}
 
 {%- if section.settings.menu_type_desktop == 'mega' -%}
   {% comment %} <link rel="stylesheet" href="{{ 'component-mega-menu.css' | asset_url }}" media="print" onload="this.media='all'"> {% endcomment %}
-     {{ 'component-mega-menu.css' | asset_url | stylesheet_tag: preload: true }}
+  {{ 'component-mega-menu.css' | asset_url | stylesheet_tag: preload: true }}
 {%- endif -%}
 
 <style>
@@ -414,11 +416,10 @@
     {%- endif -%}
 
     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
-      <div class="medium-hide small-hide">
-        {%render 'social-icons' %}
-      </div>
-      
       <div class="desktop-localization-wrapper">
+        <div class="medium-hide small-hide">
+          {% render 'social-icons' %}
+        </div>
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
           <localization-form class="small-hide medium-hide" data-prevent-hide>
             {%- form 'localization', id: 'HeaderCountryForm', class: 'localization-form' -%}
