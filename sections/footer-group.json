@@ -56,8 +56,8 @@
         "logo_width": 200,
         "logo_width_mob": 100,
         "newsletter_enable": true,
-        "newsletter_heading": "Save $40 on your first order! ",
-        "newsletter_desc": "Join for wellness tips, early product drops & exclusive deals.",
+        "newsletter_heading": "Get Vouchers",
+        "newsletter_desc": "Join for updates and discount vouchers",
         "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": true,
