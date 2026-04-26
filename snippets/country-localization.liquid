@@ -5,20 +5,6 @@
     - localPosition: pass in the position in which the form is coming up to create specific IDs
 {%- endcomment -%}
 
-<style>
-  .country-with-flag {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  .country-flag {
-    width: 20px;
-    height: auto;
-    border-radius: 2px;
-  }
-</style>
-
 {%- liquid
   assign currencies = localization.available_countries | map: 'currency' | map: 'iso_code' | uniq
   assign popular_countries = localization.available_countries | where: 'popular?' | sort: 'name'
@@ -48,11 +34,6 @@
     aria-describedby="{{ localPosition }}Label"
   >
     <span>
-      <img
-        src="https://flagcdn.com/w20/{{ localization.country.iso_code | downcase }}.png"
-        alt="{{ localization.country.name }} flag"
-        class="country-flag"
-      >
       {{- localization.country.name }} |
       {{ localization.country.currency.iso_code }}
       {{ localization.country.currency.symbol -}}
@@ -130,15 +111,7 @@
                 >
                   {{- 'icon-checkmark.svg' | inline_asset_content -}}
                 </span>
-                {% comment %} <span class="country">{{- country.name }}</span> {% endcomment %}
-                <span class="country-with-flag">
-                  <img
-                    src="https://flagcdn.com/w20/{{ country.iso_code | downcase }}.png"
-                    alt="{{ country.name }} flag"
-                    class="country-flag"
-                  >
-                  {{- country.name }}
-                </span>
+                <span class="country">{{- country.name }}</span>
                 <span class="localization-form__currency motion-reduce{% unless show_currencies %} hidden{% endunless %}">
                   {{ country.currency.iso_code }}
                   {{ country.currency.symbol -}}
