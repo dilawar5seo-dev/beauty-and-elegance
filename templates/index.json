@@ -422,11 +422,11 @@
           "settings": {
             "image": "shopify://shop_images/Offers.png",
             "title": "Daily Offers",
-            "subtitle": "BANNER HEADLINE",
-            "description": "<p>Banner description text goes here.</p>",
+            "subtitle": "Buy Some get some free",
+            "description": "<p>we offer daily sale on different products. The list will be updated soon</p>",
             "button_text": "SHOP NOW",
             "button_link": "#",
-            "discount_text": "15% OFF COLLECTIONS",
+            "discount_text": "Upto 10%, 15%, 30% Off",
             "vertical_alignment": "middle",
             "text_alignment": "left"
           }
