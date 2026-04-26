@@ -11,6 +11,12 @@
   display: block;
 }
 
+.footer-bottom-logo {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
 @media screen and (max-width: 749px) {
   .footer .grid {
     display: block;
