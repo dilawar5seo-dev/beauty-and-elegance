@@ -35,7 +35,6 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "{{ collection.image }}",
-        "image_2": "shopify://shop_images/1.svg",
         "image_overlay_opacity": 10,
         "image_height": "adapt",
         "image_behavior": "none",
