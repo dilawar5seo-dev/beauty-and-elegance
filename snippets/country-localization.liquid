@@ -6,19 +6,18 @@
 {%- endcomment -%}
 
 <style>
-.country-with-flag {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
+  .country-with-flag {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
 
-.country-flag {
-  width: 20px;
-  height: auto;
-  border-radius: 2px;
-}
+  .country-flag {
+    width: 20px;
+    height: auto;
+    border-radius: 2px;
+  }
 </style>
-
 
 {%- liquid
   assign currencies = localization.available_countries | map: 'currency' | map: 'iso_code' | uniq
@@ -49,6 +48,11 @@
     aria-describedby="{{ localPosition }}Label"
   >
     <span>
+      <img
+        src="https://flagcdn.com/w20/{{ localization.country.iso_code | downcase }}.png"
+        alt="{{ localization.country.name }} flag"
+        class="country-flag"
+      >
       {{- localization.country.name }} |
       {{ localization.country.currency.iso_code }}
       {{ localization.country.currency.symbol -}}
