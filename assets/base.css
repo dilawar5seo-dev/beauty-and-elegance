@@ -3869,3 +3869,60 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+
+/* ===== RTL SAFE (DAWN) ===== */
+
+[dir="rtl"] {
+  direction: rtl;
+  width:100%;
+  overflow-x:hidden;
+}
+
+/* Text */
+[dir="rtl"] body {
+  text-align: right;
+}
+
+/* Fix container overflow (MAIN FIX) */
+[dir="rtl"] .page-width {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* Grid */
+[dir="rtl"] .grid {
+  direction: rtl;
+}
+
+/* Header */
+[dir="rtl"] .header__inline-menu {
+  justify-content: flex-end;
+}
+
+/* Drawer */
+[dir="rtl"] .drawer {
+  direction: rtl;
+}
+
+/* Forms */
+[dir="rtl"] input,
+[dir="rtl"] textarea {
+  text-align: right;
+}
+
+/* ===== CRITICAL FIX ===== */
+
+/* Prevent horizontal scroll WITHOUT breaking layout */
+body {
+  overflow-x: hidden;
+}
+
+/* KEEP sliders LTR */
+[dir="rtl"] .slider,
+[dir="rtl"] .slideshow,
+[dir="rtl"] .banner {
+  direction: ltr;
+}
