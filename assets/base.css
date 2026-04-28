@@ -3868,4 +3868,20 @@ details-disclosure > details {
   100% {
     transform: translateX(100%) scaleX(0);
   }
+}[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir="rtl"] .header__inline-menu {
+  justify-content: flex-end;
+}
+
+[dir="rtl"] .header__icons {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] input,
+[dir="rtl"] textarea {
+  text-align: right;
 }
