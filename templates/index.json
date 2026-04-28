@@ -449,7 +449,7 @@
       "type": "featured-collection-v1",
       "name": "Featured Collection v1",
       "settings": {
-        "collection": "home-2",
+        "collection": "featured-collection",
         "products_to_show": 12,
         "title": "Featured collection",
         "heading_size": "h1",
