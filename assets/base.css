@@ -3884,4 +3884,21 @@ details-disclosure > details {
 [dir="rtl"] input,
 [dir="rtl"] textarea {
   text-align: right;
+}/* Flip only design images */
+[dir="rtl"] .banner img,
+[dir="rtl"] .hero img,
+[dir="rtl"] .media img {
+  transform: scaleX(-1);
+}
+
+/* DO NOT flip product images */
+[dir="rtl"] .product img,
+[dir="rtl"] .product__media img,
+[dir="rtl"] .card__media img {
+  transform: none;
+}
+
+/* DO NOT flip logo */
+[dir="rtl"] .header__heading-logo img {
+  transform: none;
 }
