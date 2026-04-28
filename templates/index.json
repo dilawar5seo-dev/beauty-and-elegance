@@ -218,7 +218,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "golden-rose",
+        "collection": "best-seller",
         "products_to_show": 18,
         "title": "Our Best Selling Beauty Products",
         "heading_size": "h1",
