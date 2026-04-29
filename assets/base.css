@@ -3952,32 +3952,4 @@ body {
 [dir="rtl"] .rich-text__blocks {
   text-align: right;
 }/* =========================
-   RTL SLIDER FIX
-========================= */
-
-/* Fix slider buttons layout */
-[dir="rtl"] .slider-buttons {
-  flex-direction: row-reverse;
-  justify-content: center;
-  gap: 10px;
-}
-
-/* Fix arrows position */
-[dir="rtl"] .slider-button--prev {
-  order: 2;
-}
-
-[dir="rtl"] .slider-button--next {
-  order: 1;
-}
-
-/* Fix arrow icons direction */
-[dir="rtl"] .slider-button svg {
-  transform: scaleX(-1);
-}
-
-/* Fix counter (15/1) alignment */
-[dir="rtl"] .slider-counter {
-  direction: ltr;
-  text-align: center;
-}
+ 
