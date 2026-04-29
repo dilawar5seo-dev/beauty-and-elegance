@@ -3955,11 +3955,6 @@ body {
    RTL SLIDER FIX
 ========================= */
 
-/* Fix slider buttons layout */
-[dir="rtl"] .slider-buttons {
-  flex-direction: row-reverse;
-  justify-content: center;
-  gap: 10px;
-}
+
 
 
