@@ -3960,6 +3960,3 @@ body {
 html[dir="rtl"] .tj-image-with-text__media-mob img {
   transform: scaleX(-1);
 }
-[dir="rtl"] body {
-  font-family: 'Tajawal', sans-serif;
-}
