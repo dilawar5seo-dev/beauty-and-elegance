@@ -3985,4 +3985,17 @@ body {
 /* Optional: spacing fix */
 .slider-buttons {
   align-items: center;
+}/* =========================
+   CENTER CATEGORY HEADINGS (RTL)
+========================= */
+
+[dir="rtl"] .card__heading,
+[dir="rtl"] .collection-list__item .card__heading,
+[dir="rtl"] .collection-list h3 {
+  text-align: center !important;
+}
+
+/* Make sure full card is centered */
+.collection-list .card {
+  text-align: center;
 }
