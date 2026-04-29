@@ -3925,4 +3925,30 @@ body {
 [dir="rtl"] .slideshow,
 [dir="rtl"] .banner {
   direction: ltr;
+}/* =========================
+   ARABIC TEXT FIX
+========================= */
+
+[dir="rtl"] .rich-text__text,
+[dir="rtl"] .banner__text,
+[dir="rtl"] .inline-richtext,
+[dir="rtl"] p,
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3 {
+  text-align: right !important;
+  direction: rtl;
+  line-height: 1.8;
+}
+
+/* Fix container width for better readability */
+[dir="rtl"] .rich-text__wrapper {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+/* Optional: better spacing for Arabic */
+[dir="rtl"] .rich-text__blocks {
+  text-align: right;
 }
