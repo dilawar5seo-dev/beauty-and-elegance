@@ -3965,7 +3965,9 @@ body {
 
 #shopify-section-template--21528793841849__multicolumn_v1_dgQURP .multicolumn-card__info h3 {
   text-align: center !important;
-}/* Optional: better spacing for Arabic */
+}
+
+/* Optional: better spacing for Arabic */
 [dir="rtl"] .rich-text__blocks {
   text-align: right;
 }html[dir="rtl"] .tj-image-with-text__media-desk img,
