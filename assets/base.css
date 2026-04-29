@@ -3960,21 +3960,4 @@ body {
 html[dir="rtl"] .tj-image-with-text__media-mob img {
   transform: scaleX(-1);
 }
-/* =========================
-   RTL SLIDER FIX
-========================= */
-
-/* =========================
-   CENTER TEXT ONLY THIS SECTION
-========================= */
-
-#shopify-section-template--21528793841849__multicolumn_v1_dgQURP .multicolumn-card__info {
-  text-align: center !important;
-}
-
-#shopify-section-template--21528793841849__multicolumn_v1_dgQURP .multicolumn-card__info h3 {
-  text-align: center !important;
-}#shopify-section-template--21528793841849__multicolumn_v1_dgQURP .multicolumn-card__info {
-  margin-top: 12px;
-}
 
