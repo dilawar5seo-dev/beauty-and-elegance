@@ -24,7 +24,7 @@
         "heading_pcjXtt": {
           "type": "heading",
           "settings": {
-            "heading": "{{ collection.title }}",
+            "heading": "All Products",
             "heading_size": "h0"
           }
         }
@@ -34,7 +34,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "{{ collection.image }}",
+        "image": "shopify://shop_images/1.svg",
         "image_overlay_opacity": 10,
         "image_height": "adapt",
         "image_behavior": "none",
