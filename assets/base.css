@@ -3998,4 +3998,7 @@ body {
 /* Make sure full card is centered */
 .collection-list .card {
   text-align: center;
+}.collection-list .card__information {
+  text-align: center;
+  margin-top: 10px;
 }
