@@ -3962,11 +3962,4 @@ body {
   gap: 10px;
 }
 
-/* Fix arrows position */
-[dir="rtl"] .slider-button--prev {
-  order: 2;
-}
 
-[dir="rtl"] .slider-button--next {
-  order: 1;
-}
