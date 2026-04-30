@@ -24,7 +24,7 @@
         "heading_pcjXtt": {
           "type": "heading",
           "settings": {
-            "heading": "All Products",
+            "heading": "{{ collection.title }}",
             "heading_size": "h0"
           }
         }
