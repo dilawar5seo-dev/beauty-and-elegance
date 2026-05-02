@@ -52,9 +52,9 @@
         "payment_icons_tU6ACk": {
           "type": "payment_icons",
           "settings": {
-            "show_lock_icon": true,
+            "show_lock_icon": false,
             "text": "Secure SSL Payments",
-            "payment_methods": "visa\nshopify_pay\npaypal\nmastercard\ndiscover\napple_pay\namerican_express"
+            "payment_methods": "mada\nvisa\nSTCpay\napple_pay\nmastercard\ntabby\ntamara"
           }
         },
         "collapsible_tab_nJYrqF": {
