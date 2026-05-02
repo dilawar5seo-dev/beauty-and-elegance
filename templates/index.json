@@ -422,13 +422,13 @@
           "settings": {
             "image": "shopify://shop_images/Offers.png",
             "title": "Daily Offers",
-            "subtitle": "Buy Some get some free",
-            "description": "<p>we offer daily sale on different products. The list will be updated soon</p>",
+            "subtitle": "upto 50% off",
+            "description": "<p>we offer daily sale on different products. </p>",
             "button_text": "SHOP NOW",
-            "button_link": "#",
-            "discount_text": "Upto 10%, 15%, 30% Off",
+            "button_link": "shopify://collections/40-off-sale-beauty-and-elegance",
+            "discount_text": "Upto 10%, 15%, 30%, 40%,50% Off",
             "vertical_alignment": "middle",
-            "text_alignment": "left"
+            "text_alignment": "center"
           }
         }
       },
