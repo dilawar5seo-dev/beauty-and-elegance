@@ -606,32 +606,20 @@
         "heading_dzcM8E": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "<strong>Makeup, Perfume & Beauty Products in Saudi Arabia</strong>",
             "heading_size": "h1"
           }
         },
         "text_7aJbxT": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_wDMfQt": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>Discover a complete range of makeup, lipstick, perfumes, and hair styling products in Saudi Arabia. At Beauty & Elegance, we offer high-quality beauty essentials from trusted brands, making it easy to shop everything you need in one place.</p><p>Whether you're looking for long-lasting lipstick, professional makeup, or premium perfumes, our collection is designed for every style and occasion. From everyday beauty essentials to the best makeup brands, we ensure quality, affordability, and convenience.</p><p>Explore a wide selection of makeup brands in Saudi Arabia, including foundations, lipsticks, eye makeup, and accessories. We also provide advanced hair straightening tools to help you achieve salon-quality results at home.</p><p>Looking for the best makeup brands or reliable beauty products in KSA? Our carefully curated collection brings you trending products and top-quality cosmetics to enhance your beauty routine.</p><p>Enjoy a smooth online shopping experience with fast delivery across Saudi Arabia. Beauty & Elegance is your trusted destination for all beauty needs.</p>"
           }
         }
       },
       "block_order": [
         "heading_dzcM8E",
-        "text_7aJbxT",
-        "button_wDMfQt"
+        "text_7aJbxT"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
