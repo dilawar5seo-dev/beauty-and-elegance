@@ -146,9 +146,9 @@
         "block_bg": "rgba(0,0,0,0)",
         "block_text": "",
         "color_scheme": "",
-        "mobheading_alignment": "flex-start",
+        "mobheading_alignment": "center",
         "columns_mobile": "2",
-        "show_sliderbtn": true,
+        "show_sliderbtn": false,
         "swipe_on_mobile": true,
         "padding_top": 40,
         "padding_bottom": 40
