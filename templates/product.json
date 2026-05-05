@@ -54,7 +54,7 @@
           "settings": {
             "show_lock_icon": false,
             "text": "Secure SSL Payments",
-            "payment_methods": "mada\nvisa\nSTCpay\napple_pay\nmastercard\ntabby\ntamara"
+            "payment_methods": "mada\ntabby\ntamara\nSTCpay\napple_pay\nvisa\nMastercard"
           }
         },
         "collapsible_tab_nJYrqF": {
