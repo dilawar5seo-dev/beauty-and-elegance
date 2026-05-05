@@ -148,7 +148,7 @@
         "color_scheme": "",
         "mobheading_alignment": "center",
         "columns_mobile": "2",
-        "show_sliderbtn": false,
+        "show_sliderbtn": true,
         "swipe_on_mobile": true,
         "padding_top": 40,
         "padding_bottom": 40
@@ -620,6 +620,10 @@
       "block_order": [
         "heading_dzcM8E",
         "text_7aJbxT"
+      ],
+      "custom_css": [
+        "selector .rich-text__blocks {direction: ltr !important; text-align: center !important;}",
+        "selector .rich-text__text p {direction: ltr !important; text-align: center !important;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
