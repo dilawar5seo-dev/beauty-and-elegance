@@ -271,7 +271,7 @@
         "column_XacDdn": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/percentage.png",
+            "image": "shopify://shop_images/handshake-regular-full.svg",
             "title": "",
             "text": "<p><br/>100% Original Products<br/><br/></p>",
             "link_label": "",
