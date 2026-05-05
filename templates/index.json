@@ -621,10 +621,7 @@
         "heading_dzcM8E",
         "text_7aJbxT"
       ],
-      "custom_css": [
-        "selector .rich-text__blocks {direction: ltr !important; text-align: center !important;}",
-        "selector .rich-text__text p {direction: ltr !important; text-align: center !important;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
