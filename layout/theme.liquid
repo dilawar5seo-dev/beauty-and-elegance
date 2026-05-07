@@ -1,6 +1,5 @@
 <!doctype html>
 {% comment %} <html class="js" lang="{{ request.locale.iso_code }}"> edited {% endcomment %}
- <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
  <html class="js" lang="{{ request.locale.iso_code }}" dir="{% if request.locale.iso_code == 'ar' %}rtl{% else %}ltr{% endif %}">
   <head>
     <meta charset="utf-8">
@@ -384,5 +383,18 @@
     {%- if settings.cart_type == 'drawer' -%}
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    <!-- Floating WhatsApp Button for +966599923899 -->
+<a href="https://wa.me/966599923899?text=Hi!%20I%20am%20interested%20in%20one%20of%20your%20products." 
+   class="whatsapp-float" 
+   target="_blank" 
+   style="position:fixed; bottom:20px; right:20px; z-index:9999; filter: drop-shadow(0px 4px 8px rgba(0,0,0,0.3)); transition: transform 0.3s ease;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+       width="60" 
+       height="60" 
+       alt="WhatsApp Chat"
+       onmouseover="this.parentElement.style.transform='scale(1.1)'" 
+       onmouseout="this.parentElement.style.transform='scale(1)'">
+</a>
   </body>
 </html>
