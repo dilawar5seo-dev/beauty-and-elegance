@@ -3959,4 +3959,15 @@ body {
 }html[dir="rtl"] .tj-image-with-text__media-desk img,
 html[dir="rtl"] .tj-image-with-text__media-mob img {
   transform: scaleX(-1);
+
+  
+}
+/* Removes grayscale and transparency from footer/cart payment icons */
+.methods-of-payment img, 
+.payment-icons li, 
+.footer__payment list-payment__item svg {
+    filter: none !important;
+    opacity: 1 !important;
+    grayscale: 0 !important;
+    -webkit-filter: grayscale(0) !important;
 }
