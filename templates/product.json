@@ -52,7 +52,7 @@
         "text_P9Rkpq": {
           "type": "text",
           "settings": {
-            "text": "Free shipping for orders over 200 SAR",
+            "text": "Free shipping for orders above 200 SAR",
             "text_style": "body"
           }
         },
