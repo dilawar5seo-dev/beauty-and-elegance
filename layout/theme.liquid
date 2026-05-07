@@ -383,59 +383,17 @@
     {%- if settings.cart_type == 'drawer' -%}
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-<!-- START WHATSAPP EMERGENCY SALES BUTTON -->
-<a href="https://wa.me/966599923899?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D9%85%D8%B9%D8%B1%D9%81%D8%A9%20%D8%A7%D9%84%D9%85%D8%B2%D9%8A%D8%AF%20%D9%85%D9%86%20%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%AD%D9%88%D9%84%20%D9%87%D8%B0%D8%A7%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC.%0A%0AHi%2C%20I%20would%20like%20to%20know%20more%20details%20about%20this%20product." 
+<!-- Floating WhatsApp Button for +966599923899 -->
+<a href="https://wa.me/966599923899?text=Hi!%20I%20am%20interested%20in%20one%20of%20your%20products." 
+   class="whatsapp-float" 
    target="_blank" 
-   id="whatsapp-emergency-btn"
-   style="position: fixed !important; 
-          bottom: 30px !important; 
-          right: 20px !important; 
-          z-index: 2147483647 !important; 
-          display: flex !important; 
-          align-items: center !important; 
-          justify-content: center !important;
-          background-color: #25D366 !important; 
-          color: white !important; 
-          text-decoration: none !important; 
-          padding: 10px 18px !important; 
-          border-radius: 50px !important; 
-          font-family: 'Arial', sans-serif !important; 
-          box-shadow: 0 6px 20px rgba(0,0,0,0.4) !important; 
-          direction: rtl !important;
-          border: 2px solid white !important;">
-  
-  <!-- WhatsApp Icon -->
+   style="position:fixed; bottom:20px; right:20px; z-index:9999; filter: drop-shadow(0px 4px 8px rgba(0,0,0,0.3)); transition: transform 0.3s ease;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
-       width="28" 
-       height="28" 
-       style="margin-left: 10px !important; display: block !important; border: none !important;">
-  
-  <!-- Arabic Text -->
-  <span style="font-size: 15px !important; 
-               font-weight: bold !important; 
-               color: white !important; 
-               display: inline-block !important;
-               line-height: 1 !important;
-               margin: 0 !important;
-               padding: 0 !important;">
-    للاستفسار تواصل معنا
-  </span>
+       width="60" 
+       height="60" 
+       alt="WhatsApp Chat"
+       onmouseover="this.parentElement.style.transform='scale(1.1)'" 
+       onmouseout="this.parentElement.style.transform='scale(1)'">
 </a>
-
-<style>
-  /* Extra safeguard to ensure it stays visible on mobile */
-  #whatsapp-emergency-btn:hover {
-    transform: scale(1.05);
-    background-color: #128C7E !important;
-  }
-  @media screen and (max-width: 480px) {
-    #whatsapp-emergency-btn {
-      bottom: 20px !important;
-      right: 10px !important;
-      padding: 8px 14px !important;
-    }
-  }
-</style>
-<!-- END WHATSAPP EMERGENCY SALES BUTTON -->
   </body>
 </html>
