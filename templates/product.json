@@ -49,6 +49,13 @@
             "show_gift_card_recipient": false
           }
         },
+        "text_P9Rkpq": {
+          "type": "text",
+          "settings": {
+            "text": "Free shipping for orders over 200 SAR",
+            "text_style": "body"
+          }
+        },
         "payment_icons_tU6ACk": {
           "type": "payment_icons",
           "settings": {
@@ -74,6 +81,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "text_P9Rkpq",
         "payment_icons_tU6ACk",
         "collapsible_tab_nJYrqF"
       ],
