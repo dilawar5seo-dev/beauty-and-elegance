@@ -6,6 +6,37 @@
 {% endcomment %}
 
 <header-drawer data-breakpoint="{% if section.settings.menu_type_desktop == 'drawer' %}desktop{% else %}tablet{% endif %}">
+ 
+ <div class="menu-drawer__localization header-localization js-localization-init">
+
+  {%- if localization.available_countries and localization.available_countries.size > 1 -%}
+    <localization-form>
+      {%- form 'localization', id: 'HeaderCountryMobileFormTop', class: 'localization-form' -%}
+        <div>
+          <h2 class="visually-hidden">
+            {{ 'localization.country_label' | t }}
+          </h2>
+          {%- render 'country-localization', localPosition: 'HeaderCountryMobileTop' -%}
+        </div>
+      {%- endform -%}
+    </localization-form>
+  {%- endif -%}
+
+  {%- if localization.available_languages and localization.available_languages.size > 1 -%}
+    <localization-form>
+      {%- form 'localization', id: 'HeaderLanguageMobileFormTop', class: 'localization-form' -%}
+        <div>
+          <h2 class="visually-hidden">
+            {{ 'localization.language_label' | t }}
+          </h2>
+          {%- render 'language-localization', localPosition: 'HeaderLanguageMobileTop' -%}
+        </div>
+      {%- endform -%}
+    </localization-form>
+  {%- endif -%}
+
+</div>
+
   <details id="Details-menu-drawer-container" class="menu-drawer-container">
     <summary
       class="header__icon header__icon--menu header__icon--summary link focus-inset"
@@ -293,3 +324,26 @@
     </div>
   </details>
 </header-drawer>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+  function initLocalizationDropdowns() {
+
+    document.querySelectorAll('.js-localization-init').forEach((wrapper) => {
+
+      wrapper.querySelectorAll('form').forEach((form) => {
+        form.dispatchEvent(new Event('change', { bubbles: true }));
+      });
+
+    });
+
+    console.log('[Localization] Top dropdown initialized');
+
+  }
+
+  // important: delay until drawer JS finishes
+  setTimeout(initLocalizationDropdowns, 800);
+
+});
+</script>
