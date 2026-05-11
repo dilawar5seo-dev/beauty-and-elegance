@@ -322,3 +322,27 @@
     </div>
   </details>
 </header-drawer>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+  function initLocalizationFix() {
+
+    document.querySelectorAll('.js-localization-bridge').forEach((el) => {
+
+      // Force re-trigger Shopify localization binding events
+      el.querySelectorAll('form').forEach((form) => {
+        form.dispatchEvent(new Event('change', { bubbles: true }));
+      });
+
+    });
+
+    console.log('[Localization Fix] Top block initialized');
+
+  }
+
+  // Run after slight delay (Shopify drawer renders late)
+  setTimeout(initLocalizationFix, 800);
+
+});
+</script>
