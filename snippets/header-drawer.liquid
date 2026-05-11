@@ -5,6 +5,15 @@
   {% render 'header-drawer' %}
 {% endcomment %}
 
+<style>
+.sticky-localization {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9999;
+}
+</style>
+
 <header-drawer data-breakpoint="{% if section.settings.menu_type_desktop == 'drawer' %}desktop{% else %}tablet{% endif %}">
   <div class="menu-drawer__utility-links sticky-localization">
     {%- if localization.available_countries or localization.available_languages -%}
