@@ -6,33 +6,6 @@
 {% endcomment %}
 
 <header-drawer data-breakpoint="{% if section.settings.menu_type_desktop == 'drawer' %}desktop{% else %}tablet{% endif %}">
-  <div class="menu-drawer__localization header-localization js-localization-bridge">
-    {%- if localization.available_countries and localization.available_countries.size > 1 -%}
-      <localization-form>
-        {%- form 'localization', id: 'HeaderCountryMobileFormTop', class: 'localization-form' -%}
-          <div>
-            <h2 class="visually-hidden">
-              {{ 'localization.country_label' | t }}
-            </h2>
-            {%- render 'country-localization', localPosition: 'HeaderCountryMobileTop' -%}
-          </div>
-        {%- endform -%}
-      </localization-form>
-    {%- endif -%}
-
-    {%- if localization.available_languages and localization.available_languages.size > 1 -%}
-      <localization-form>
-        {%- form 'localization', id: 'HeaderLanguageMobileFormTop', class: 'localization-form' -%}
-          <div>
-            <h2 class="visually-hidden">
-              {{ 'localization.language_label' | t }}
-            </h2>
-            {%- render 'language-localization', localPosition: 'HeaderLanguageMobileTop' -%}
-          </div>
-        {%- endform -%}
-      </localization-form>
-    {%- endif -%}
-  </div>
   <details id="Details-menu-drawer-container" class="menu-drawer-container">
     <summary
       class="header__icon header__icon--menu header__icon--summary link focus-inset"
@@ -193,37 +166,35 @@
                 -%}
               </a>
             {%- endif -%}
-            {% comment %}
-              {%- if localization.available_countries or localization.available_languages -%}
-                <div class="menu-drawer__localization header-localization">
-                  {%- if localization.available_countries and localization.available_countries.size > 1 -%}
-                    <localization-form>
-                      {%- form 'localization', id: 'HeaderCountryMobileForm', class: 'localization-form' -%}
-                        <div>
-                          <h2 class="visually-hidden" id="HeaderCountryMobileLabel">
-                            {{ 'localization.country_label' | t }}
-                          </h2>
-                          {%- render 'country-localization', localPosition: 'HeaderCountryMobile' -%}
-                        </div>
-                      {%- endform -%}
-                    </localization-form>
-                  {% endif %}
+            {%- if localization.available_countries or localization.available_languages -%}
+              <div class="menu-drawer__localization header-localization">
+                {%- if localization.available_countries and localization.available_countries.size > 1 -%}
+                  <localization-form>
+                    {%- form 'localization', id: 'HeaderCountryMobileForm', class: 'localization-form' -%}
+                      <div>
+                        <h2 class="visually-hidden" id="HeaderCountryMobileLabel">
+                          {{ 'localization.country_label' | t }}
+                        </h2>
+                        {%- render 'country-localization', localPosition: 'HeaderCountryMobile' -%}
+                      </div>
+                    {%- endform -%}
+                  </localization-form>
+                {% endif %}
 
-                  {%- if localization.available_languages and localization.available_languages.size > 1 -%}
-                    <localization-form>
-                      {%- form 'localization', id: 'HeaderLanguageMobileForm', class: 'localization-form' -%}
-                        <div>
-                          <h2 class="visually-hidden" id="HeaderLanguageMobileLabel">
-                            {{ 'localization.language_label' | t }}
-                          </h2>
-                          {%- render 'language-localization', localPosition: 'HeaderLanguageMobile' -%}
-                        </div>
-                      {%- endform -%}
-                    </localization-form>
-                  {%- endif -%}
-                </div>
-              {%- endif -%} edited
-            {% endcomment %}
+                {%- if localization.available_languages and localization.available_languages.size > 1 -%}
+                  <localization-form>
+                    {%- form 'localization', id: 'HeaderLanguageMobileForm', class: 'localization-form' -%}
+                      <div>
+                        <h2 class="visually-hidden" id="HeaderLanguageMobileLabel">
+                          {{ 'localization.language_label' | t }}
+                        </h2>
+                        {%- render 'language-localization', localPosition: 'HeaderLanguageMobile' -%}
+                      </div>
+                    {%- endform -%}
+                  </localization-form>
+                {%- endif -%}
+              </div>
+            {%- endif -%}
             <ul class="list list-social list-unstyled" role="list">
               {%- if settings.social_twitter_link != blank -%}
                 <li class="list-social__item">
@@ -322,27 +293,3 @@
     </div>
   </details>
 </header-drawer>
-
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-
-  function initLocalizationFix() {
-
-    document.querySelectorAll('.js-localization-bridge').forEach((el) => {
-
-      // Force re-trigger Shopify localization binding events
-      el.querySelectorAll('form').forEach((form) => {
-        form.dispatchEvent(new Event('change', { bubbles: true }));
-      });
-
-    });
-
-    console.log('[Localization Fix] Top block initialized');
-
-  }
-
-  // Run after slight delay (Shopify drawer renders late)
-  setTimeout(initLocalizationFix, 800);
-
-});
-</script>
