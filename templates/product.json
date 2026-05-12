@@ -61,7 +61,7 @@
           "settings": {
             "show_lock_icon": false,
             "text": "Secure SSL Payments",
-            "payment_methods": "mada\ntabby\ntamara\nSTCpay\napple_pay\nvisa\nMastercard"
+            "icon_1": "shopify://shop_images/mastercard.jpg"
           }
         },
         "collapsible_tab_nJYrqF": {
