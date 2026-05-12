@@ -47,12 +47,12 @@
   }
 
   @keyframes scrolling-icons-loop {
-    from {
-      transform: translateX(0);
+     from {
+        transform: translate3d(0, 0, 0);
     }
 
     to {
-      transform: translateX(-50%);
+        transform: translate3d(-50%, 0, 0);
     }
   }
 
@@ -74,31 +74,26 @@
   }
 {%- endstyle -%}
 
-
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="scrolling-icons section-{{ section.id }}-padding">
     <div class="scrolling-icons__track">
-      
-      {% for i in (1..2) %}
-        {% for block in section.blocks %}
-          <div class="scrolling-icons__item" {{ block.shopify_attributes }}>
-            
-            {% if block.settings.icon != blank %}
-              <div class="scrolling-icons__icon">
-                {{ block.settings.icon }}
-              </div>
-            {% endif %}
+      {% assign duplicated_blocks = section.blocks | concat: section.blocks %}
 
-            {% if block.settings.text != blank %}
-              <span class="scrolling-icons__text">
-                {{ block.settings.text }}
-              </span>
-            {% endif %}
+      {% for block in duplicated_blocks %}
+        <div class="scrolling-icons__item" {{ block.shopify_attributes }}>
+          {% if block.settings.icon != blank %}
+            <div class="scrolling-icons__icon">
+              {{ block.settings.icon }}
+            </div>
+          {% endif %}
 
-          </div>
-        {% endfor %}
+          {% if block.settings.text != blank %}
+            <span class="scrolling-icons__text">
+              {{ block.settings.text }}
+            </span>
+          {% endif %}
+        </div>
       {% endfor %}
-
     </div>
   </div>
 </div>
