@@ -176,6 +176,10 @@ button.thumbnail:not([aria-current="true"]) {
   display: block;
 }
 
+.payment-icon-item::marker {
+    content: none;
+}
+
 .payment-icons-wrapper {
     display: flex;
     align-items: center;
