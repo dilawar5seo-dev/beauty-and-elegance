@@ -182,7 +182,6 @@ button.thumbnail:not([aria-current="true"]) {
     justify-content: flex-start;
     margin: 2rem 0 !important;
     flex-direction: column;
-    filter:grayscale(1);
     gap: .8rem;
     color: rgb(var(--color-foreground), .75);
 }
