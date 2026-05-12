@@ -61,7 +61,11 @@
           "settings": {
             "show_lock_icon": false,
             "text": "Secure SSL Payments",
-            "icon_1": "shopify://shop_images/mastercard.jpg"
+            "icon_1": "shopify://shop_images/mastercard.jpg",
+            "icon_2": "shopify://shop_images/visa.svg",
+            "icon_3": "shopify://shop_images/mada.png",
+            "icon_4": "shopify://shop_images/tabby.png",
+            "icon_5": "shopify://shop_images/stc.png"
           }
         },
         "collapsible_tab_nJYrqF": {
