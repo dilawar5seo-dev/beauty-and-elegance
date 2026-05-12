@@ -107,33 +107,41 @@
           "type": "item",
           "settings": {
             "icon": "",
-            "text": "Free Shipping Worldwide"
+            "text": "Premium Quality You Can Trust"
           }
         },
         "item_izYYC6": {
           "type": "item",
           "settings": {
             "icon": "",
-            "text": "Free Shipping Worldwide"
+            "text": "100% Original Beauty Product"
           }
         },
         "item_nBjJkT": {
           "type": "item",
           "settings": {
             "icon": "",
-            "text": "Free Shipping Worldwide"
+            "text": "Fast Shipping in KSA"
+          }
+        },
+        "item_KcixaM": {
+          "type": "item",
+          "settings": {
+            "icon": "",
+            "text": "Cash On Delivery Available"
           }
         }
       },
       "block_order": [
         "item_aWyfxU",
         "item_izYYC6",
-        "item_nBjJkT"
+        "item_nBjJkT",
+        "item_KcixaM"
       ],
       "name": "Scrolling Icons",
       "settings": {
         "color_scheme": "scheme-e8aa382c-7176-4b78-87e7-7c1514096350",
-        "speed": 15,
+        "speed": 40,
         "padding_top": 36,
         "padding_bottom": 36
       }
