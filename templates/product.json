@@ -294,106 +294,6 @@
         "margin_bottom": 0
       }
     },
-    "faq_accordions_3CPePF": {
-      "type": "faq-accordions",
-      "blocks": {
-        "question_AfqbQp": {
-          "type": "question",
-          "settings": {
-            "quest": "Can I test ride a Rexx bike before buying?",
-            "ans_content": "<p>Lorem ipsum dolor sit amet consectetur, id aliquet malesuada nisl vulputate nulla ut elit. Ut inties iutio sed epremmentum erat.</p>"
-          }
-        },
-        "question_wgHN6c": {
-          "type": "question",
-          "settings": {
-            "quest": "Do Rexx bikes come with a warranty?",
-            "ans_content": "<p>Lorem ipsum dolor sit amet consectetur. Porttitor amet ante maecenas armet ac nisl. Eros nam a purus volutpat.</p>"
-          }
-        },
-        "question_3YYwQN": {
-          "type": "question",
-          "settings": {
-            "quest": "What is your return or exchange policy?",
-            "ans_content": "<p>Lorem ipsum dolor sit amet consectetur, id aliquet malesuada nisl vulputate nulla ut elit.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "question_AfqbQp",
-        "question_wgHN6c",
-        "question_3YYwQN"
-      ],
-      "disabled": true,
-      "name": "FAQ accordions",
-      "settings": {
-        "heading": "Frequently Asked Questions",
-        "caption": "We're here to help!",
-        "desc": "Get in touch with customer care",
-        "btn-label": "Contact Us",
-        "btn-link": "",
-        "color_scheme_faqbox": "",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_top_mob": 36,
-        "padding_bottom_mob": 36
-      }
-    },
-    "faq_accordions_dyJnmH": {
-      "type": "faq-accordions",
-      "blocks": {
-        "question_34ifKw": {
-          "type": "question",
-          "settings": {
-            "quest": "Do you offer Cash on Delivery (COD)?",
-            "ans_content": "<p>Yes, we offer Cash on Delivery across Saudi Arabia for your convenience.</p>"
-          }
-        },
-        "question_7HfDpH": {
-          "type": "question",
-          "settings": {
-            "quest": "How long does shipping take?",
-            "ans_content": "<p>Orders are usually delivered within <strong>2–5 business days</strong> across Saudi Arabia.</p>"
-          }
-        },
-        "question_gtL9iA": {
-          "type": "question",
-          "settings": {
-            "quest": "Are your products original?",
-            "ans_content": "<p>Yes, all our products are <strong>100% original and high quality</strong>, sourced from trusted suppliers.</p>"
-          }
-        },
-        "question_EWYknt": {
-          "type": "question",
-          "settings": {
-            "quest": "Can I return or exchange a product?",
-            "ans_content": "<p>Yes, we offer <strong>easy returns within 7 days</strong> if the product is unused and in original packaging.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "question_34ifKw",
-        "question_7HfDpH",
-        "question_gtL9iA",
-        "question_EWYknt"
-      ],
-      "disabled": true,
-      "name": "FAQ accordions",
-      "settings": {
-        "heading": "Frequently Asked Questions",
-        "caption": "We're here to help!",
-        "desc": "Get In Touch With Customer Support",
-        "btn-label": "Contact Us",
-        "btn-link": "",
-        "color_scheme_faqbox": "scheme-e8aa382c-7176-4b78-87e7-7c1514096350",
-        "color_scheme": "scheme-5",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_top_mob": 36,
-        "padding_bottom_mob": 36
-      }
-    },
     "faq_accordions_xPme4K": {
       "type": "faq-accordions",
       "blocks": {
@@ -454,8 +354,6 @@
     "featured_collection_pNKdCN",
     "multicolumn_v1_w9JyUq",
     "review_column_TKrq7j",
-    "faq_accordions_3CPePF",
-    "faq_accordions_dyJnmH",
     "faq_accordions_xPme4K"
   ]
 }
