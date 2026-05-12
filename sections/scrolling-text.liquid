@@ -9,6 +9,8 @@
     overflow: hidden;
     width: 100%;
     position: relative;
+    direction: ltr;
+    unicode-bidi: isolate;
   }
 
  .scrolling-icons__track {
@@ -22,7 +24,7 @@
 }
 
 html[dir="rtl"] .scrolling-icons__track {
-  animation-direction: none;
+  animation-direction: reverse;
 }
 
   .scrolling-icons__item {
