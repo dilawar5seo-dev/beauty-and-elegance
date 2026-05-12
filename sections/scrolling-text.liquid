@@ -1,32 +1,32 @@
 {{ 'section-scrolling-icons.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-   .scrolling-icons {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+     .scrolling-icons {
     overflow: hidden;
-    position: relative;
     width: 100%;
+    position: relative;
   }
 
   .scrolling-icons__track {
-   display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  width: max-content;
-  will-change: transform;
-  animation: scrolling-icons-loop {{ section.settings.speed }}s linear infinite;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: max-content;
+    animation: marquee-scroll {{ section.settings.speed }}s linear infinite;
+    will-change: transform;
   }
 
   .scrolling-icons__item {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    padding-right: 4rem;
-    white-space: nowrap;
+    gap: 10px;
     flex-shrink: 0;
+    white-space: nowrap;
+    padding-right: 40px;
   }
 
   .scrolling-icons__icon {
@@ -42,57 +42,57 @@
   }
 
   .scrolling-icons__text {
-    font-size: 1.6rem;
+    font-size: 16px;
     line-height: 1;
   }
 
-  @keyframes scrolling-icons-loop {
-     from {
-        transform: translate3d(0, 0, 0);
+  @keyframes marquee-scroll {
+    from {
+      transform: translateX(0);
     }
 
     to {
-        transform: translate3d(-50%, 0, 0);
+      transform: translateX(-50%);
     }
   }
 
   @media screen and (max-width: 749px) {
     .scrolling-icons__item {
-      padding-right: 2.5rem;
+      padding-right: 24px;
     }
 
     .scrolling-icons__text {
-      font-size: 1.4rem;
+      font-size: 14px;
     }
   }
 
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
     }
-  }
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="scrolling-icons section-{{ section.id }}-padding">
     <div class="scrolling-icons__track">
-      {% assign duplicated_blocks = section.blocks | concat: section.blocks %}
+      {% for i in (1..12) %}
+        {% for block in section.blocks %}
+          <div class="scrolling-icons__item" {{ block.shopify_attributes }}>
+            {% if block.settings.icon != blank %}
+              <div class="scrolling-icons__icon">
+                {{ block.settings.icon }}
+              </div>
+            {% endif %}
 
-      {% for block in duplicated_blocks %}
-        <div class="scrolling-icons__item" {{ block.shopify_attributes }}>
-          {% if block.settings.icon != blank %}
-            <div class="scrolling-icons__icon">
-              {{ block.settings.icon }}
-            </div>
-          {% endif %}
-
-          {% if block.settings.text != blank %}
-            <span class="scrolling-icons__text">
-              {{ block.settings.text }}
-            </span>
-          {% endif %}
-        </div>
+            {% if block.settings.text != blank %}
+              <span class="scrolling-icons__text">
+                {{ block.settings.text }}
+              </span>
+            {% endif %}
+          </div>
+        {% endfor %}
       {% endfor %}
     </div>
   </div>
