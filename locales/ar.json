@@ -556,7 +556,8 @@
         "paypal_over_capture": "تم تحديث إجمالي طلبك. يُرجى الدفع باستخدام {{walletName}} لإتمام طلبك.",
         "captcha_required": "أدخل معلومات الدفع وحل اختبار الكابتشا لإتمام عملية الشراء.",
         "payment_credential_delegation_error": "حدثت مشكلة أثناء معالجة دفعتك. يُرجى اختيار طريقة دفع جديدة.",
-        "invalid_number": "أدخل رقم بطاقة صحيحًا"
+        "invalid_number": "أدخل رقم بطاقة صحيحًا",
+        "missing_cvc": "أدخل رمز الأمان"
       },
       "split_delivery": {
         "cross_border": {
@@ -1568,7 +1569,8 @@
         "payment_option": {
           "accessibility_label": "اختر طريقة الدفع"
         },
-        "multiple_primary_payment_not_allowed": "طرق الدفع غير الصالحة"
+        "multiple_primary_payment_not_allowed": "طرق الدفع غير الصالحة",
+        "blik_label": "بليك"
       },
       "field_errors": {
         "must_use_available_delivery_address": "يجب تحديد عنوان التسليم من بين عناوين التسليم المتاحة.",
@@ -2121,7 +2123,8 @@
       "invalid": "غير صالح",
       "expired": "انتهت صلاحيته",
       "gift_card_disabled": "بطاقة الهدايا معطلة",
-      "taken": "تم الاستيلاء عليها بالفعل"
+      "taken": "تم الاستيلاء عليها بالفعل",
+      "gift_card_currency_mismatch": "لا يمكن استخدام بطاقة الهدايا هذه لإتمام عملية الشراء. يُرجى الاتصال بـ %{shop_name} لإعادة إصدارها."
     },
     "attributes": {
       "signature": "العنوان",
