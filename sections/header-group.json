@@ -11,6 +11,52 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "scrolling_text_wjNhdf": {
+      "type": "scrolling-text",
+      "blocks": {
+        "item_aWyfxU": {
+          "type": "item",
+          "settings": {
+            "icon": "",
+            "text": "Premium Quality You Can Trust"
+          }
+        },
+        "item_izYYC6": {
+          "type": "item",
+          "settings": {
+            "icon": "",
+            "text": "100% Original Beauty Product"
+          }
+        },
+        "item_nBjJkT": {
+          "type": "item",
+          "settings": {
+            "icon": "",
+            "text": "Fast Shipping in KSA"
+          }
+        },
+        "item_KcixaM": {
+          "type": "item",
+          "settings": {
+            "icon": "",
+            "text": "Cash On Delivery Available"
+          }
+        }
+      },
+      "block_order": [
+        "item_aWyfxU",
+        "item_izYYC6",
+        "item_nBjJkT",
+        "item_KcixaM"
+      ],
+      "name": "Scrolling Icons",
+      "settings": {
+        "color_scheme": "scheme-e8aa382c-7176-4b78-87e7-7c1514096350",
+        "speed": 100,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -70,52 +116,6 @@
         "margin_bottom": 0,
         "padding_top": 12,
         "padding_bottom": 0
-      }
-    },
-    "scrolling_text_wjNhdf": {
-      "type": "scrolling-text",
-      "blocks": {
-        "item_aWyfxU": {
-          "type": "item",
-          "settings": {
-            "icon": "",
-            "text": "Premium Quality You Can Trust"
-          }
-        },
-        "item_izYYC6": {
-          "type": "item",
-          "settings": {
-            "icon": "",
-            "text": "100% Original Beauty Product"
-          }
-        },
-        "item_nBjJkT": {
-          "type": "item",
-          "settings": {
-            "icon": "",
-            "text": "Fast Shipping in KSA"
-          }
-        },
-        "item_KcixaM": {
-          "type": "item",
-          "settings": {
-            "icon": "",
-            "text": "Cash On Delivery Available"
-          }
-        }
-      },
-      "block_order": [
-        "item_aWyfxU",
-        "item_izYYC6",
-        "item_nBjJkT",
-        "item_KcixaM"
-      ],
-      "name": "Scrolling Icons",
-      "settings": {
-        "color_scheme": "scheme-e8aa382c-7176-4b78-87e7-7c1514096350",
-        "speed": 40,
-        "padding_top": 12,
-        "padding_bottom": 12
       }
     }
   },
