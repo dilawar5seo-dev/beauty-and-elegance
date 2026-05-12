@@ -156,7 +156,17 @@
                     {%- for payment in payment_methods -%}
                       {%- assign payment_handle = payment | strip | downcase -%}
                       {%- if payment_handle != blank -%}
-                        <li>{{ payment_handle | payment_type_svg_tag }}</li>
+                        <li class="payment-icon-item">
+                          {% if block.settings.custom_icon != blank %}
+                            <img
+                              src="{{ block.settings.custom_icon | image_url: width: 60 }}"
+                              alt="{{ payment_handle }}"
+                              loading="lazy"
+                            >
+                          {% else %}
+                            {{ payment_handle | payment_type_svg_tag }}
+                          {% endif %}
+                        </li>
                       {%- endif -%}
                     {%- endfor -%}
                   </ul>
@@ -1058,26 +1068,24 @@
 </script>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const accordions = document.querySelectorAll(".pdp-accordion-detail");
+  document.addEventListener('DOMContentLoaded', function () {
+    const accordions = document.querySelectorAll('.pdp-accordion-detail');
 
     accordions.forEach((accordion) => {
-      accordion.addEventListener("toggle", function () {
+      accordion.addEventListener('toggle', function () {
         if (accordion.open) {
           // Remove is-open from all others
-          accordions.forEach((acc) => acc.classList.remove("is-open"));
+          accordions.forEach((acc) => acc.classList.remove('is-open'));
           // Add to this one
-          accordion.classList.add("is-open");
+          accordion.classList.add('is-open');
         } else {
           // Just remove from this one
-          accordion.classList.remove("is-open");
+          accordion.classList.remove('is-open');
         }
       });
     });
   });
 </script>
-
-
 
 {% schema %}
 {
@@ -1253,6 +1261,11 @@
           "id": "text",
           "label": "Text",
           "default": "Secure SSL Payments"
+        },
+        {
+          "type": "image_picker",
+          "id": "custom_icon",
+          "label": "Custom payment icon"
         },
         {
           "type": "textarea",
