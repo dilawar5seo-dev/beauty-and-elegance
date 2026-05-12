@@ -1,5 +1,3 @@
-{{ 'section-scrolling-icons.css' | asset_url | stylesheet_tag }}
-
 {%- style -%}
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -16,6 +14,7 @@
     align-items: center;
     flex-wrap: nowrap;
     width: max-content;
+    direction: ltr;
     animation: marquee-scroll {{ section.settings.speed }}s linear infinite;
     will-change: transform;
   }
@@ -45,6 +44,10 @@
     font-size: 16px;
     line-height: 1;
   }
+
+  html[dir="rtl"] .scrolling-icons__track {
+    animation-direction: reverse;
+    }
 
   @keyframes marquee-scroll {
     from {
