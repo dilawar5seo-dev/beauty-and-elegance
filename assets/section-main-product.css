@@ -162,6 +162,19 @@ button.thumbnail:not([aria-current="true"]) {
     vertical-align: middle;
 }
 
+.payment-icons-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  direction: ltr; /* prevents RTL breaking icon order */
+}
+
+.payment-icon-item img {
+  width: 40px;
+  height: auto;
+  display: block;
+}
+
 .payment-icons-wrapper {
     display: flex;
     align-items: center;
@@ -178,7 +191,7 @@ button.thumbnail:not([aria-current="true"]) {
     justify-content: flex-start;
     gap: .8rem;
 }
-.payment-icons-list {
+/* .payment-icons-list {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -187,7 +200,7 @@ button.thumbnail:not([aria-current="true"]) {
     align-items: center;
     gap: .5rem;
     justify-content: center;
-}
+} */
 
 .icon-under-media-wrapper {
     display: flex;
