@@ -164,9 +164,10 @@ button.thumbnail:not([aria-current="true"]) {
 
 .payment-icons-list {
   display: flex;
+  align-items: center;
+  gap: 12px;
   flex-wrap: wrap;
-  gap: 10px;
-  direction: ltr; /* prevents RTL breaking icon order */
+  direction: ltr;
 }
 
 .payment-icon-item img {
