@@ -11,34 +11,6 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "17771220134104a537": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_abe02d6_tjnxpQ": {
-          "type": "ai_gen_block_abe02d6",
-          "settings": {
-            "scrolling_text": "Premium Quality You Can Trust | 100% Original Beauty Product | Fast Shipping in KSA | Cash On Delivery Available",
-            "show_separator": true,
-            "separator_symbol": "★",
-            "font_size": 14,
-            "font_weight": "600",
-            "text_transform": "capitalize",
-            "text_color": "#ffffff",
-            "separator_color": "#fffbf7",
-            "background_color": "#c5177c",
-            "padding_vertical": 10,
-            "text_spacing": 40,
-            "scroll_speed": 60,
-            "pause_on_hover": true
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_abe02d6_tjnxpQ"
-      ],
-      "settings": {}
-    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -142,15 +114,14 @@
       "settings": {
         "color_scheme": "scheme-e8aa382c-7176-4b78-87e7-7c1514096350",
         "speed": 40,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     }
   },
   "order": [
-    "17771220134104a537",
+    "scrolling_text_wjNhdf",
     "announcement-bar",
-    "header",
-    "scrolling_text_wjNhdf"
+    "header"
   ]
 }
