@@ -347,6 +347,9 @@
       <div class="footer-logo-text">
         Commercial registration number: 1010609637 <br>
         Tax number 310091647300003
+        {% for type in shop.enabled_payment_types %}
+        <p>{{ type }}</p>
+      {% endfor %}
       </div>
     </div>
     <div class="footer-social-icons">{% render 'social-icons' %}</div>
@@ -422,9 +425,6 @@
           </ul>
         {%- endif -%}
       </div>
-      {% for type in shop.enabled_payment_types %}
-        <p>{{ type }}</p>
-      {% endfor %}
     </div>
   </div>
 </footer>
