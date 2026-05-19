@@ -54,8 +54,8 @@
       "name": "Image with text v3",
       "settings": {
         "page_width": false,
-        "image": "shopify://shop_images/Flat_ad3f5790-0a67-4d08-b7d3-8e66018b1521.svg",
-        "mob_image": "shopify://shop_images/Untitled_design.png",
+        "image": "shopify://shop_images/hero-sale-banner.svg",
+        "mob_image": "shopify://shop_images/Flat_ad3f5790-0a67-4d08-b7d3-8e66018b1521.svg",
         "contain": false,
         "custom-border": false,
         "img-radius": 18,
