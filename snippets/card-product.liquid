@@ -215,6 +215,11 @@ font-size :12px;
                 -{{ discount_percent | round }}%
               </span>
             {%- endif -%}
+            {% if card_product.compare_at_price > card_product.price %}
+            <div class="custom-sale-badge">
+            30% OFF
+             </div>
+              {% endif %}
           </div>
         </div>
       </div>
@@ -233,7 +238,7 @@ font-size :12px;
               aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
             >
               {% comment %} edited {{ card_product.title | escape }} {% endcomment %}
-              {{ card_product.title | escape | truncate:30 }}
+              {{ card_product.title | escape | truncate:35 }}
             </a>
           </h3>
           <div class="card-information">
