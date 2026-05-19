@@ -3962,3 +3962,17 @@ html[dir="rtl"] .tj-image-with-text__media-mob img {
 
   
 }
+.custom-sale-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #c5177c;
+    color: white;
+    padding: 10px 16px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 30px;
+    z-index: 5;
+    line-height: 1;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
