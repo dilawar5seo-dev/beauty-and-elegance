@@ -55,7 +55,7 @@
       "settings": {
         "page_width": false,
         "image": "shopify://shop_images/final.svg",
-        "mob_image": "shopify://shop_images/Flat_ad3f5790-0a67-4d08-b7d3-8e66018b1521.svg",
+        "mob_image": "shopify://shop_images/final.svg",
         "contain": false,
         "custom-border": false,
         "img-radius": 18,
