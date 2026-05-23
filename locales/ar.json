@@ -125,7 +125,7 @@
           "only_empty_terms_accepted": "تسمح هذه السياسة بالمصطلحات الفارغة فقط.",
           "session_identifier_not_unique_error": "حدث خطأ ما بطلبك، حاول إتمام الشراء مرة أخرى.",
           "line_item_limit_reached": "تم الوصول إلى العدد الأقصى لبنود السطر.",
-          "session_is_already_finished": "لقد تم الانتهاء من عملية الدفع هذه بالفعل.",
+          "session_is_already_finished": "لقد تم الانتهاء من عملية الدفع",
           "merchandise": {
             "only_value_constraint": "يُسمح بالقيم الدقيقة فقط في مدخلات البضائع.",
             "merchandise_not_found": "المنتج غير موجود.",
