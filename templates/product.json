@@ -66,7 +66,8 @@
             "icon_3": "shopify://shop_images/mada.png",
             "icon_4": "shopify://shop_images/tabby.png",
             "icon_5": "shopify://shop_images/stc.png",
-            "icon_6": "shopify://shop_images/tamara.png"
+            "icon_6": "shopify://shop_images/tamara.png",
+            "icon_7": "shopify://shop_images/Apple_Pay_logo.png"
           }
         },
         "collapsible_tab_nJYrqF": {
@@ -134,7 +135,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "best-seller",
+        "collection": "flat-30-sale",
         "products_to_show": 4,
         "title": "You may also like",
         "heading_size": "h1",
