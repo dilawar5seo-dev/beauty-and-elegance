@@ -317,7 +317,13 @@
         "different_shipping_address_text": "استخدم عنوانًا لمرة واحدة لهذا الطلب",
         "change_company_location_link_label": "تغيير موقع الشركة",
         "change_location_link_label": "تغيير الموقع",
-        "ship_to_company": "الشحن إلى {{companyName}}"
+        "ship_to_company": "الشحن إلى {{companyName}}",
+        "field_saved_label": "تم الحفظ",
+        "field_tooltip_helper_text": "تستخدم لتأكيد طلبك وتذكيرات سلة التسوق",
+        "field_tooltip_accessibility_label": "مزيد من المعلومات حول كيفية استخدام معلومات الاتصال الخاصة بك",
+        "optional_street_name_label": "الشارع (اختياري)",
+        "subdistrict_label": "ناحية",
+        "optional_subdistrict_label": "الناحية (اختياري)"
       },
       "order_summary": {
         "discount_requires_customer_notice": "أدخل معلومات الشحن الخاصة بك لتطبيق رمز الخصم <strong style=\"text-transform:uppercase\">%{code}</strong>",
@@ -585,7 +591,8 @@
           "modal": {
             "heading": "تغيير البلد؟",
             "content": "سيؤدي هذا إلى إعادة تعيين كافة العناصر إلى الشحن. يجب أن تكون مواقع الاستلام والشحن في نفس البلد.",
-            "change_country": "تغيير الدولة"
+            "change_country": "تغيير الدولة",
+            "country_changed_heading": "تم تغيير البلد"
           },
           "banner": "تم تحديث طريقة التوصيل الخاصة بك"
         },
@@ -687,7 +694,8 @@
         "pickup_unavailable_banner_body": {
           "ship_items": "اشحن أغراضك",
           "search_elsewhere": "ابحث في مكان آخر",
-          "ship_items_or_search_elsewhere": "%{ship_items} أو %{search_elsewhere}"
+          "ship_items_or_search_elsewhere": "%{ship_items} أو %{search_elsewhere}",
+          "search_elsewhere_standalone": "ابحث في مكان آخر"
         },
         "location_address_search_label": "العنوان",
         "title": "الموقع",
@@ -703,6 +711,23 @@
         },
         "location_nearby_short_one_item": {
           "other": "%{count} مواقع قريبة تحتوي على المنتج الذي تبحث عنه"
+        },
+        "location_closest_other_items": "أقرب موقع يحتوي على أغراضك",
+        "location_information_far_away_other_items": {
+          "one": "يوجد موقع واحد به عناصرك",
+          "other": "يوجد %{count} موقع تحتوي على أغراضك"
+        },
+        "location_nearby_other_items": {
+          "one": "يوجد موقع واحد قريب يتوفر به أغراضك",
+          "other": "يوجد %{count} موقع قريب تحتوي على أغراضك"
+        },
+        "location_nearby_short_other_items": {
+          "one": "%{count} موقع قريب به أغراضك",
+          "other": "%{count} مواقع قريبة تحتوي على أغراضك"
+        },
+        "location_far_away_other_items": {
+          "one": "%{count} موقع يحتوي على أغراضك",
+          "other": "%{count} مواقع تحتوي على عناصرك"
         }
       },
       "captcha": {
@@ -801,7 +826,8 @@
           },
           "formatting": {
             "address_too_long": "سطر العنوان طويل جداً"
-          }
+          },
+          "subscription_review_required": "يتضمن طلبك اشتراكاً. يجب عليك مراجعة الشروط أدناه قبل إتمام طلبك."
         },
         "scrim": {
           "cancel": "إلغاء",
@@ -1009,7 +1035,8 @@
         "retail_method_definition": "شحن التجزئة",
         "company_location_no_address_banner": "الطلبات التي يتم شحنها إلى مواقع لا تحتوي على عنوان سيتم إرسالها للمراجعة.",
         "none_method_definition": "لا يوجد شحن",
-        "subscription_pickup_information": "سيتم تطبيق طريقة التسليم هذه على جميع المنتجات في هذا الطلب وعلى جميع الطلبات المستقبلية لهذا الاشتراك."
+        "subscription_pickup_information": "سيتم تطبيق طريقة التسليم هذه على جميع المنتجات في هذا الطلب وعلى جميع الطلبات المستقبلية لهذا الاشتراك.",
+        "digital_product": "منتج رقمي"
       },
       "customer_account": {
         "not_user_label": "ألست %{first_name}؟",
@@ -1709,7 +1736,16 @@
         "no_method_error": "لا يمكن لهذا المتجر قبول الدفعات في الوقت الحالي.",
         "not_configured_error": "لا يمكن لهذا المتجر قبول الدفعات في الوقت الحالي.",
         "proposed_gateway_unavailable": "بوابة الدفع المقترحة غير متاحة",
-        "bank_account_generic_error": "تعذرت إضافة الحساب البنكي. حاول مرة أخرى لاحقًا."
+        "bank_account_generic_error": "تعذرت إضافة الحساب البنكي. حاول مرة أخرى لاحقًا.",
+        "alipay_label": "أليباي",
+        "wechat_pay_label": "الدفع عبر وي شات",
+        "purchase_options_subscription_agreement_label": "تحتوي سلة مشترياتك على اشتراك يتجدد تلقائيًا. بالنقر على \"%{button_label}\"، %{consent_text} %{cancellation_instructions}",
+        "purchase_options_subscription_consent_text": "أنت توافق صراحة وتأكيدًا على أنه سيتم تلقائيًا تحصيل المبلغ (المبالغ) المتكرر الموضح في سلة التسوق الخاصة بك (بالإضافة إلى رسوم الشحن والضرائب) حتى انتهاء الاشتراك (الاشتراكات) أو إلغائه.",
+        "purchase_options_subscription_cancellation_instructions": "%{cancel_text} يرجى الاطلاع على %{cancellation_policy_label}.",
+        "purchase_options_subscription_cancel_text": "يمكنك الإلغاء في أي وقت بالانتقال إلى حسابك أو الاتصال بالمتجر.",
+        "vault_for_payment_later": {
+          "notice": "لن يتم تحصيل الرسوم منك الآن. من خلال الاستمرار في الدفع، فإنك توافق على تحصيل الرسوم من طريقة الدفع الخاصة بك عند معالجة طلبك."
+        }
       },
       "field_errors": {
         "must_use_available_delivery_address": "يجب تحديد عنوان التسليم من بين عناوين التسليم المتاحة.",
@@ -1757,7 +1793,13 @@
         "email_or_phone_invalid": "أدخل بريدًا إلكترونيًا صحيحًا أو رقم هاتف جوال",
         "address_city_too_long": "المدينة طويلة جدًا (الحد الأقصى هو 255 حرفًا)",
         "address_company_contains_mathematical_symbols": "لا يمكن أن تحتوي اسم الشركة على رموز رياضية",
-        "credit_card_verification_value_blank": "أدخل رمز CVV أو رمز الحماية الموجود على بطاقتك"
+        "credit_card_verification_value_blank": "أدخل رمز CVV أو رمز الحماية الموجود على بطاقتك",
+        "address_subdistrict_blank": "أدخل ناحية فرعية",
+        "address_subdistrict_too_long": "الناحية طويلة جداً (الحد الأقصى هو {{count}} حرف)",
+        "address_subdistrict_contains_emojis": "لا يمكن أن يحتوي الحي على رموز تعبيرية",
+        "address_subdistrict_contains_html_tags": "لا يمكن أن يحتوي الحي على وسوم HTML.",
+        "address_subdistrict_contains_mathematical_symbols": "لا يمكن أن يحتوي القسم الفرعي على رموز رياضية",
+        "credit_card_name_billing_invalid": "أدخل اسمك في عنوان الفاتورة أولاً"
       },
       "store_credit_errors": {
         "generic_error": "حدثت مشكلة في رصيد المتجر الخاص بك. حاول مرة أخرى أو أعد تحميل الصفحة."
@@ -2510,11 +2552,24 @@
           "fix_domain_link_text": "إعدادات النطاق الخاصة بك"
         },
         "heros": {
-          "store_not_exist": "هذا المتجر غير موجود."
+          "store_not_exist": "هذا المتجر غير موجود.",
+          "store_will_be_right_back": "سيعود هذا المتجر حالاً",
+          "store_unavailable": "هذا المتجر غير متاح حاليًا."
         },
         "links": {
           "explore_other_stores": "استكشاف متاجر أخرى",
-          "start_free_trial": "ابدأ تجربة مجانية"
+          "start_free_trial": "ابدأ تجربة مجانية",
+          "refresh_page": "حدّث الصفحة"
+        },
+        "title_unavailable": "المتجر غير متاح",
+        "subtitles": {
+          "store_will_be_right_back": "تعمل Shopify على إعادته للعمل في أقرب وقت ممكن."
+        },
+        "status_card": {
+          "eyebrow": "مساعدة أصحاب المتاجر",
+          "header": "التحقق من حالة شوبيفاي",
+          "caption": "اكتشف ما إذا كان هناك انقطاع يؤثر على أكثر من هذا المتجر في Shopify.",
+          "link_text": "عرض حالة أنظمة Shopify"
         }
       },
       "invalid_for_card_type": "غير صالح",
